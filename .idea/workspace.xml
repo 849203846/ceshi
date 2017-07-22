@@ -3,13 +3,12 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/3、正式课第三周/2、20170531正式课第二天/2、复习盒子模型.html" line="12" />
     <bookmark url="file://$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/1、复习es6定义变量.html" line="35" />
+    <bookmark url="file://$PROJECT_DIR$/第十周vue/第五天/测试.html" line="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a3248d8-f8af-4c30-9f24-9290220e652f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第五天/测试.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第十周vue/第四天 node/node基础.html" afterPath="$PROJECT_DIR$/第十周vue/第四天 node/node基础.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第十周vue/第四天git/提交到远程仓库.html" afterPath="$PROJECT_DIR$/第十周vue/第四天git/提交到远程仓库.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +24,18 @@
     <favorites_list name="ceshi" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="测试.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第十周vue/第五天/测试.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,8 +43,8 @@
         <option value="XHTML File" />
         <option value="Less File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -64,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/1、复习es6定义变量.html" />
         <option value="$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/3、复习es6中的函数.html" />
         <option value="$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/4、复习es6.html" />
         <option value="$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/2、复习解构赋值.html" />
@@ -115,6 +124,7 @@
         <option value="$PROJECT_DIR$/第十周vue/第四天 node/1.callback.js" />
         <option value="$PROJECT_DIR$/第十周vue/第四天 node/node基础.html" />
         <option value="$PROJECT_DIR$/第十周vue/第四天git/提交到远程仓库.html" />
+        <option value="$PROJECT_DIR$/第十周vue/第五天/测试.html" />
       </list>
     </option>
   </component>
@@ -190,6 +200,12 @@
               <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
               <item name="ceshi" type="462c0819:PsiDirectoryNode" />
               <item name="第十周vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
+              <item name="第十周vue" type="462c0819:PsiDirectoryNode" />
+              <item name="第五天" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -402,7 +418,7 @@
       <workItem from="1499215454339" duration="24463000" />
       <workItem from="1499305065395" duration="24795000" />
       <workItem from="1500715543187" duration="4111000" />
-      <workItem from="1500722061860" duration="1018000" />
+      <workItem from="1500722061860" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="课件">
       <created>1500715816883</created>
@@ -418,11 +434,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500719073064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="课件">
+      <created>1500723089435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500723089436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="959016000" />
+    <option name="totallyTimeSpent" value="960516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +516,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/0、正式课第八周/第一天/3、立方体.html" />
     <entry file="file://$PROJECT_DIR$/0、正式课第八周/第一天/7、click.html" />
     <entry file="file://$PROJECT_DIR$/8、正式课第八周/1、20170704正式课第一天/index.less">
       <provider selected="true" editor-type-id="text-editor">
@@ -804,6 +826,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十周vue/第五天/测试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
