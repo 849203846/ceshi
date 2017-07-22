@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <script>
+        // 盒子模型
+        // 在js中提供了一些获取DOM的属性的一些方法
+        //     // clientWidth clientHeight offsetWidth offsetHeight clientTop clientLeft scrollLeft scrollTop scrollWidth scrollHeight offsetTop offsetLeft
+
+
+
+        //     元素.style.width
+        //     getComputedStyle(elt).width
+        //     currentStyle
+        function getCss(curEle,attr) {
+            var val=null;
+            var reg=null;
+            if('getComputedStyle' in window ){
+                val=parseFloat(window.getComputedStyle(curEle)[attr])
+            }else{
+                if(attr=='opacity'){
+                    val=curEle.currentStyle['filter']
+                    reg=/^alpha\(opacity=((?:\d|[1-9]\d+)(?:\.\d+))\)$/
+                    var temp=reg.exec(val)[1];
+                    val=temp?temp/100:1
+                    val=parseFloat(val)
+                }else{
+                   val=curEle.currentStyle[attr]
+                }
+
+            }
+            return val
+        }
+
+        // 图片延迟加载
+
+        //
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

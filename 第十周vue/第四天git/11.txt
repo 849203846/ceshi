@@ -1,0 +1,160 @@
+    1  clone 
+    2  git clone https://github.com/zhufengpeixun/Javascript201705
+    3  git remote -v
+    4  git remote add zhufeng https://github.com/zhufengpeixun/Javascript201705
+    5  git remote -v
+    6  fork
+    7  fork https://github.com/zhufengpeixun/Javascript201705
+    8  git remote -v
+    9  git
+   10  git remote add zhufeng https://github.com/zhufengpeixun/Javascript201705
+   11  git remote -v
+   12  git remote pudate zhufeng 
+   13  git remote update zhufeng
+   14  git pull zhufeng master
+   15  git add -A
+   16  git commit -m"aa"
+   17  git config --global user.email“CCCl“84”
+   18  git config --global user.email"849203846@qq.comom"
+   19  git config -global user.name"849203846@qq.com"
+   20  git config --global user.name"849203846@qq.com"
+   21  git pull origin master
+   22  git push origin master
+   23  git push origin master
+   24  git clone $ clone
+   25  git clone https://github.com/shunwuyu/jd-vue
+   26  git clone https://github.com/849203846/JD-/tree/master
+   27  git clone https://github.com/849203846/JD-/tree/master
+   28  git clone 
+   29  git clone 
+   30  git clone https://github.com/849203846/JD-
+   31  git add -A
+   32  git remote add -A
+   33  git add -A
+   34  git commit -m"aa"
+   35  git pull origin master
+   36  git push origin master
+   37  ndoe scrver
+   38  node
+   39  node scrver
+   40  c
+   41  git remote update zhufeng
+   42  git remote updata zhufeng
+   43  git remote -v
+   44  git remote update zhufeng
+   45  git pull zhufeng master
+   46  git clone https://github.com/zhufengzhufeng/201705node
+   47  git clone https://github.com/zhufengzhufeng/201705node
+   48  git clone https://github.com/zhufengzhufeng/201705node
+   49  git remote add zhufeng1 https://github.com/zhufengzhufeng/201705node
+   50  git clone https://github.com/zhufengzhufeng/201705node
+   51  git clone https://github.com/zhufengzhufeng/201705node
+   52  git clone https://github.com/zhufengzhufeng/201705node
+   53  git clone https://github.com/zhufengzhufeng/201705node
+   54  cd
+   55  pwd
+   56  git config --list
+   57  git config --global user.name 849203846@qq.com
+   58  git config --global user.email 849203846@qq.com
+   59  git config --list
+   60  clear
+   61   mkdir
+   62  mkdir git-demo
+   63  cd git-demo/
+   64  git init
+   65  touch index.txt
+   66  cat index.txt
+   67  vi index.txt
+   68  cat index.txt
+   69  vi index.txt
+   70  cat index.txt
+   71  cd git -demo
+   72  git add index.txt
+   73  git status
+   74  git commit -m
+   75  git commit -m'a'
+   76  git statue
+   77  git status
+   78  git log
+   79  git log --grep='849203846'
+   80  git log --grep='index'
+   81  git log --grep 'index'
+   82  git log --grep 'i'
+   83  git log --grep='i'
+   84  git log --grep/'i'
+   85  git log --grep/'849203846'
+   86  git log --grep/'index.txt'
+   87  git log --grep='a'
+   88  git clone https://github.com/zhufengzhufeng/201705node
+   89  git remote -v
+   90  git remote add zhufeng 
+   91  git remote add zhufeng https://github.com/zhufengzhufeng/201705node
+   92  git remote -v
+   93  git remote -v
+   94  git remote -v
+   95  git remote add zhufeng https://github.com/zhufengzhufeng/201705node
+   96  git remote -v
+   97  git remote update zhufeng
+   98  git pull zhufeng master
+   99  git config --global user.email '849203846@qq.com'
+  100  git config --global user name '849203846'
+  101  git config --global user name '849203846@qq.com'
+  102  git config --global user.name '849203846@qq.com'
+  103* git di
+  104  git diff --cached
+  105  git diff master
+  106  vi index.txt
+  107  git diff
+  108  git diff master
+  109  git diff --cached
+  110  git add -A
+  111  git add index
+  112  git add .
+  113  git status
+  114  clear
+  115  git diff
+  116  git diff master
+  117  git diff --cached
+  118  git commit'b'
+  119  git commit -m'b'
+  120  clear
+  121  git logf
+  122  git log
+  123  clone 
+  124  clear
+  125  clear
+  126  vi index.txt
+  127  cat index.txt
+  128  git status
+  129  git checkout index.txt
+  130  cat index.txt
+  131  clear
+  132  vi index.txt
+  133  cat index.txt
+  134  git status
+  135  git checkout index.txt
+  136  cat index.txt
+  137  clear
+  138  git diff
+  139  vi index.txt
+  140  git add .
+  141  git diff
+  142  git diff --cached
+  143  git reset HEAD index.txt
+  144  git status
+  145  git checkout .
+  146  cat index.txt
+  147  cat index.txt
+  148  iv index.txt
+  149  vi index.txt
+  150  git log
+  151  git reset --hard 6df5f1ee68b9b8829d7b25411588dc4a8aa0287
+  152  cat index.txt
+  153  git reset --hard
+  154  git reset --hardfb9f55fb0b49b41c063bbe2ba6f9126cb4dc6c31
+  155  git reset --hard fb9f55fb0b49b41c063bbe2ba6f9126cb4dc6c31
+  156  cat index.txt
+  157  git diff
+  158  clear
+  159  history >1 1.txt
+  160  history >11.txt

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <!-- 复习正式课第一周 -->
+
+
+
+
+    <script>
+
+
+// 作用域：全局作用域 私有作用域
+
+// 预解释：在当前的作用域下会把val 和function进行提前声明
+console.log(str)
+var str="zhufeng"//只申明 不定义 返回值是undefined
+// function是申名 加定义的
+
+function sum() {
+    function num(){
+
+    }
+}
+ // 预解释的变态机制
+
+ 1）if条件（old不管成立不成立都要进行预解释 申明加定义 ）在最新版本下 不管条件是否成立 都要进行预解释 只申明不定义
+2）等号的左边进行预解释 右边的不进行预解释
+3）匿名函数不进行预解释
+4）自执行函数不进行预解释
+5）return出去的值不进行预解释 但是return下面的代码是需要进行预解释的
+6）预解释时候如果名字重复了不进行声明 只重新定义、
+
+
+// $(this)
+1) 全局下的this指向window
+2）定时器的window指向window
+3）自执行函数也指向window
+4）给一个元素绑定一个方法，方法中的this指向当前的元素
+5）构造函数中的this指向实例
+6）call apply bind 改变this关键字 bind是预处理
+7）看方法执行前面有没有点 如果方法前面没有点指向window 点前面是谁 this指向谁
+
+
+    面向对象
+    类：是对象的一部分
+    构造函数就是一个类
+    内置类：
+    自定义类：被new过的就是自定义类
+    new total
+    function total(){}
+    构造函数和普通函数的区别
+    相同点 函数执行的时候形成私有作用域解释代码从上到下执行
+    不同点：构造函数没有return 返回一个实例
+    实例是对象数据类型的 是通过new 函数 返回一个实例
+
+
+    原型模式
+    每一个函数数据类型（函数，类）都天生自带一个prototype属性，prototype是对象数据类型的，他天生自带constructor属性 属性值是当前这种操作所属的类，
+    每一个对象数据类型都天生自带一个_proto__属性 ，属性值指向当前实例所属类的原型
+
+  // hasOwnProperty() 通过这个属性判断是不是私有属性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

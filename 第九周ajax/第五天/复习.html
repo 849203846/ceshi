@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // requrie 导入模块，把自定义的模块中的方法暴露出来 module.exports.xxx=xxx
+//    npm install less -g 下载less、文件 第三方node文件
+
+
+    var http=requrie("http");
+    var fs=requrie("fs");
+    var url=requrie("url");
+
+    var server=http.createServer(function(req,res) {
+        url.parse(req.url,true)
+        // 加true获取？后面的参数是对象，不加true返回的是字符串
+
+    });
+server.listen(80,function(){
+    console.log(1)
+});
+
+
+// 创建ajax对象
+
+function createXHR(){
+
+
+
+
+}
+
+
+
+// jsonp和ajax都属于向后台发请求的代码
+
+
+
+// jsonp作用 （）解决跨域请求）
+function fn(aaa){
+    console.log(aaa) //拿到数据
+}
+// jsonp原理就是通过script的src属性获取后面？callBack=fn
+
+//    用ajax获取jsonp时候只要datatype是jsonp就可以获取到
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

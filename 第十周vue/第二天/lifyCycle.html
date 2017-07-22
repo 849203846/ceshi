@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="app"></div>
+<script>
+    new Vue({
+        el:'#app',
+        data:{},
+        beforeCreate(){},//创建之前
+        created(){},//创建完成 只要获取数据都在created中获取ajax
+        beforeMount(){},//挂载前
+        mounted(){},//挂在完成 已经插到div中 在这里可以获取真实dom元素
+        beforeUpdate(){},//更新前 只有页面更改时才会执行这个方法
+        updated(){},//更新后
+        beforeDestroy(){}//结束定时器或者移除监听
+        ,destroyed(){}//销毁后 会自动移除监听
+    });
+//        .$mount('#app')  相当于el
+    vm.$destroy()//手动调用销毁
+
+
+</script>
+</body>
+</html>

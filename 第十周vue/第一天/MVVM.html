@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+    [v-cloak]{
+        display: none;
+    }
+</style>
+</head>
+<body>
+<script src="../../node_modules/vue/dist/vue.js">
+
+</script>
+<div id="app">
+    <input type="text" v-model="msg">
+    {{msg}}
+    <!--是v-text的简写，属性默认不会展示在html上 当编译好后会自动插入到div中-->
+<div v-text="msg"></div>
+    <!--只绑定一次-->
+    <div v-once>{{msg}}</div>
+    <!--绑定html   xss攻击-->
+    <div v-html="msg"></div>
+
+    <div v-cloak>{{msg}}</div>
+    <!--放置三元运算符 表达式 或者函数执行的返回结果-->
+    {{msg=='我很帅'?'ok':'no'}}
+    <div v-text="msg=='我很帅'?'ok':'no'"></div>
+    {{ {name:1} }}
+    <br>
+    {{3+3}}
+</div>
+<!--会将msg的值赋予给输入框 当输入框值发生改变的时候，将值在赋予给msg变量-->
+
+<script>
+    <!--可以创建多个实例 但是不常用 vue-devtools可以帮我们调试vue代码-->
+//    视图能改变才能双向数据绑定，能改变input（test）类型textarea，select如果能见到以上属性 想获取值 需要加一个“指令”特殊的html属性--以v-开头的行街属性v-model 实现双向数据绑定
+    let vm=new Vue({
+        el:"#app",
+        data:{
+            msg:'<h1>aa</h1>'
+
+        }
+    })
+</script>
+</body>
+</html>

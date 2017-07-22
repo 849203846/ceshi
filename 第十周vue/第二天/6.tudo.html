@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<div id="app">
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    TodoList
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="panel panel-warning ">
+                        <div class="panel-heading">
+                            <h4 class="text-danger">亲 你还有{{count}}件事未完成哦</h4>
+                            <input type="text" class="form-control " placeholder="请输入要办理的事情" v-model="total1.total"
+                                   @keyup.13="add()">
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item" v-for="attr in newTodos" @dblclick="change(attr)">
+                                    <div v-show="attr!=c">
+                                        <input type="checkbox" v-model="attr.isSelected">
+                                        <span>{{attr.title}}</span>
+                                        <button class="btn btn-danger pull-right btn-xs" @click="remote(attr)">
+                                            &bigotimes;
+                                        </button>
+
+                                    </div>
+                                    <!--拿到当前这一项 和循环的每一项比 如果相同 则显示当前输入框-->
+                                    <div v-show="attr==c">
+                                        <!--//当前那个输入框需要获取焦点我就给当前这个输入框加一个获取焦点-->
+                                        <!--自定义指令 如果当前指令的值是true 就让这个输入框获取焦点-->
+                                        <input type="text" v-model="attr.title" v-auto-focus="attr==c" @blur="reset" @keyup.13="reset">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <ul class="nav nav-pills">
+                                <li :class="{active:location=='complete'}"><a href="#complete">全部</a></li>
+                                <li :class="{active:location=='finish'}"><a href="#finish">已完成</a></li>
+                                <li :class="{active:location=='unfinish'}"><a href="#unfinish">未完成</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--1.渲染列表 更具定义的数据渲染-->
+<!--2.删除列表中的某一项-->
+<!--3.实现添加功能-->
+<!--4.获取没有选中的个数-->
+<!--5.通过动态样式添加删除效果-->
+<!--6.实现导航切换效果-->
+<!--7.实现双击输入框获取焦点可以修改内容-->
+<!--8.通过localstorage存储到本地 实现本地存储-->
+
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    let vm = new Vue({
+        el: '#app',
+        data: {
+            total1: {
+                total: "",
+                isSelected: false
+            },
+            todos: JSON.parse(localStorage.getItem("todos")) || [
+                {isSelected: false, title: '晚上回家睡觉'},
+                {isSelected: true, title: '晚上回家打豆豆'},
+                {isSelected: false, title: '晚上回家吃泡面'},
+                {isSelected: true, title: '晚上回家看电影'}
+            ],
+            location: 'complete',
+            c: ""
+        },
+        computed: {
+            count: {
+                get() {  //计算数组里有多少没勾选的
+                    return this.todos.filter(item => !item.isSelected).length
+                },
+            },
+            newTodos() {
+                //根据todos计算出全部 完成 未完成
+                if (this.location === 'complete') {
+                    return this.todos
+                } else if (this.location === 'finish') {
+                    return this.todos.filter(item => item.isSelected)
+                } else {
+                    return this.todos.filter(item => !item.isSelected)
+                }
+
+            }
+        }
+        ,
+        methods: {
+            reset(){
+                this.c=''
+            }
+            ,
+            change(cur) {
+                this.c = cur
+            },
+            remote(e) {
+                //e代表当前要删除这一项
+//                返回true表示放到新数组里 ，返回的是最终的新数组 要覆盖掉老数组
+                this.todos = this.todos.filter(item => item !== e);
+            },
+            add() {
+                this.todos.unshift({isSelected: false, title: this.total1.total});
+
+                //赋予一个新对象
+                this.total1 = {
+                    total: "",
+                    isSelected: false
+                }
+            },
+            addclass() {
+                console.log(this);
+            }
+        }
+        ,
+        watch: {//默认只监控一层 对象数据发生变化是不会触发watch
+            todos: {//只要todos发生变化 就执行此函数
+                handler() {
+                    localStorage.setItem('todos', JSON.stringify(this.todos))
+                }, deep: true//深度监控，对象中数据变化也会监控到
+            }
+        }
+        ,
+        directives: {//指令 用来添加一些功能 或者可以操作dom元素
+            autoFocus(el, bindings) { // el代表当前输入框//bindings是对象>value如果是true则获取焦点
+                if (bindings.value) {
+                    el.focus()
+                }
+            }
+        }
+    });
+    let listener = function () {
+        vm.location = window.location.hash.slice(1) || 'complete'
+    };
+
+    //        window.location.hash
+    listener();//当页面刷新时获取一次哈希值
+    window.addEventListener("hashchange", listener)
+    //    sessionStorage 临时存储   localStorage 永久存储 cookie 4k
+    //    localStorage.setIerm  不能存对象 json.stringify转换成字符串拿出来时候用
+    //    localStorage.getIerm
+
+
+</script>
+</body>
+</html>
+<!--spa 单页开发 不跳转页面-->
+<!--//路由：不同的路径 显示不同的内容 浏览器路径发生变化就会产生历史管里-->
+<!--hash 锚点  开发时一般用hash-->
+<!--h5自带的api方法  上线用api 没有# 但是需要服务端支持 在开发时使用 如果刷新页面会导致404-->
+<!--history.pushState（'',null,'/a）-->
+<!--history。go()-->
+
+
+<!--监听hash值的变化-->
+<!--window.addEventListener("hashchange",listener)-->

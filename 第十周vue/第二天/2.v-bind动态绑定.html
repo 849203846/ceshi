@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .a{
+            color: yellow;
+        }
+        .b{
+            background: blue;
+        }
+        .c{
+            background: red
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <!--v-bind:title='msg' 绑定动态属性 需要前面加：来绑定-->
+    <!--style和class一种是数组 一种是对象-->
+    <div :title='msg' :width="w">划过显示标题</div>
+    <!--动态绑定class,,动态绑定class和以前的不产生任何冲突-->
+    <!--通过传进来的条件判断 以对象形式-->
+<div :class="{a:font,b:back}" class="c">vue</div>
+
+    <!--通过xy值保存class名写到数组中都会生效 如果加单引号则是字符串-->
+    <div :class="[x,y]">vue2</div>
+
+
+    <div :class="['a',{b:back,c:font}]">vue3</div>
+
+<!--将arr数组便利成列表隔行变色-->
+<ul>
+    <li v-for="(attr,index) in arr" :class="{b:index%2}">{{attr}}</li>
+</ul>
+    <!--行内样式-->
+    <!--<div style="background: red"></div>-->
+    <div :style="{background:'red',color:'yellow'}">vue1</div>
+    <div :style="[{background:'red',color:'yellow'}]">vue2</div>
+
+
+
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            x:'a',
+            y:'b',
+            arr:[1,2,3,4,5,6],
+            font:true,
+            back:false,
+            w:'100px',
+            msg:'哈哈'
+        }
+    })
+</script>
+</body>
+</html>

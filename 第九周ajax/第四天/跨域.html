@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="jquery-1.11.3.js"></script>
+
+
+<script>
+//    jsonp和ajax相同，都是客户端向服务器分发送请求，给服务器传递数据，从服务端获取数据的方式
+//    ajax：属于同源策略
+//    jsonp属于非同源（跨域请求）
+    //同源和非同源的区别
+        // 1）协议相同
+        // 2）域名或者ip一样
+        // 3）端口号
+        // 以上三个条件完全相同，属于同源策略，使用ajax获取数据，只要有一个不一样的我们就叫非同源，使用jsonp获取数据
+
+        // script不管是同源还是非同源都嫩获取到数据，只要给src一个合理的路径，script标签都可以把对应的内容请求到
+
+//  JSONP 就是利用了script这个原理
+ // 我们首先先把需要的数据的请求地址赋值给script的src属性
+// 把当前页面中的某一个函数名当作参数值，传递给百度的服务器（url的？传参：？）
+//当百度服务器接受到这个请求的时候，需要进行特殊的处理，把你传进来的函数名和你需要的数据拼接成一个字符串
+//比如：fn我们传进去的函数名是fn,他准备好的数据'fn([{"王林":"真帅"}])
+//服务器把准备的数据铜鼓破http协议返回给我们客户端，客户端发现其实就是让定义的这个方法fn执行，而且还给fn传递了一些数据，这个数据就是咱们最需要的数据
+//function fn(a) {
+//console.log(a)
+//}
+
+
+
+        // var xhr=new XMLHttpRequest();
+// xhr.open("get","data.txt",false);
+// xhr.onreadystatechange=function () {
+// if(xhr.readyState===4&&xhr.status===200){
+    // console.log(xhr.responseText)
+// }
+// };
+// xhr.send()
+
+
+
+$.ajax({
+    url:"http://matchweb.sports.qq.com/kbs/calendar?columnId=100000",
+    dataType:"jsonp",
+    success:function (data) {
+        console.log(data);
+    }
+})
+
+</script>
+
+
+<!--//请求的是同源的文件-->
+<!--<script src="ajax.js"></script>-->
+
+
+<!--<script src="http://matchweb.sports.qq.com/kbs/calendar?columnId=100000&callback=fn" charset="utf-8">-->
+
+<!--//</script>-->
+
+
+</body>
+</html>

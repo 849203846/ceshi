@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" @keyup.65.enter.esc.left="son">
+    <!--多次绑定修饰符事件-->
+
+
+   <a href="http://www.baidu.com" @click="son"><!--阻止默认href执行-->去珠峰</a>
+    <!--.prevent阻止默认行为-->
+
+    <!--vue中 @click.stop="grandparent"阻止冒泡行为 .capture捕获行为-->
+    <!--.seif 绑定事件可以只绑定给自己-->
+
+        <div @click.capture="grandparent"> 他爷爷
+            <div @click.seif="parent">他爸爸
+                <div @click="son"> 他
+                </div>
+            </div>
+        </div>
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+//    阻止冒泡
+//    阻止默认行为
+//    阻止事件的捕获
+//    阻止事件只在自己身上发生
+
+    let vm=new Vue({//根组件
+        el:"#app"
+//        ,template:'<div>我很帅</div>'//组件模版中只能有一个
+        ,methods:{
+            grandparent(e){
+//                e.cancelBubble=true;
+//                e.stopPropagation();阻止事件冒泡行为
+                console.log('grandparent');},
+            parent(e){
+//                e.cancelBubble=true;
+//                e.stopPropagation();阻止事件冒泡行为
+                console.log('parent');},
+            son(e){
+//                e.cancelBubble=true;
+//                e.stopPropagation()阻止事件冒泡行为;
+                console.log('son');}
+        }
+    })
+</script>
+</body>
+</html>

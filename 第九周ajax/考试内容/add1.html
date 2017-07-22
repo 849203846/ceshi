@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="box2">
+    <div><span>姓名</span><input type="text" id="username"></div>
+    <div><span>年龄</span><input type="text" id="userage"></div>
+    <div><span>电话</span><input type="text" id="userphone"></div>
+    <div><span>住址</span><input type="text" id="useraddress "></div>
+    <button id="btn">提交</button>
+</div>
+<script>
+    let username=document.getElementById('username'),userage=document.getElementById('userage'),userphone=document.getElementById('userphone'),useraddress=document.getElementById('useraddress'),urlobj=window.location.href,index=urlobj.indexOf('='),id=urlobj.substr(index+1),isflag=index<0?false:true
+        let btn=document.getElementById('btn')
+    if(isflag){
+        ajax({
+            url:'getinfo',
+            success:function (jsondata) {
+                if(jsondata.code==0){
+                    let data=jsondata['data']
+                    username.value=data['name']
+                    userage.value=data['age']
+                    userphone.value=data['phone']
+                    useraddress.value=data['address']
+                }
+            }
+        })
+    }
+
+    btn.onclick=function () {
+        let obj={
+            name:username.value
+            ,age:userage.value
+            ,phone:userPhone.value
+            ,address:useraddress
+
+        }
+        if(isflag){
+            obj.id=id
+            ajax({
+                url:'updatainfo',
+                type:'post',
+                data:JSON.stringify(obj),
+                success:function (jsondata) {
+                    if(jsondata.code==0){
+                        window.location.href='index.html'
+                        return
+                    }
+                    alert(jsondata.mse)
+                }
+            })
+            return
+        }
+        ajax({
+            url:'addinfo',
+            type:'post',
+            data:JSON.stringify(obj),
+            success:function (jsondata) {
+                if(jsondata.code==0){
+                    window.location.href='index.html';
+                    alert(jsondata.msg);
+                    return
+                }
+                alert(jsondata.msg)
+            }
+        })
+    }
+
+
+</script>
+</body>
+</html>

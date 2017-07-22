@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<!--计算属性{{sum()}}一般不能写成这个样子-->
+<!--虽然叫属性 要写成函数格式-->
+<div id="app">
+    <table class="table table-responsive">
+        <tr>
+            <th>全选 <input type="checkbox" v-model="all"></th>
+            <th>商品名称</th>
+            <th>商品数量</th>
+        </tr>
+        <tr v-for="(item,index) in products">
+        <td><input type="checkbox" v-model="item.isSelected"></td>
+            <td>{{item.price}}</td>
+            <td><button>-</button><input type="text" v-model="item.num"><button>-</button></td>
+        </tr>
+        <td>总价{{sum}}</td>
+    </table>
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            products:[{price:'33',num:3,isSelected:true},{price:'33',num:2,isSelected:true}]
+        },
+        methodes:{},//事件类
+        computed:{ //计算属性,根据数据计算出新值
+//            这个sum函数只当数组中的价格数量变化了 才会重新执行计算
+            sum(){//sum其实是属性
+                return this.products.reduce((prev,next)=>{
+                    if(next.isSelected){
+                        return prev+next.price*next.num
+                    }else{
+                        return prev
+                    }
+                  },0)
+
+            },
+            a:{
+                get(){//当获取a的时候执行, 当获取a值时可以计算值赋予a
+                    console.log('get');
+                },
+                set(val){//当给a设置值的时候执行 val代表要设置的值，当给a设置时 可以影响其他值
+                    console.log(val);
+                }
+            },
+            all:{
+                get(){//如果有true就返回true 如果是false 继续循环 权威false 返回false
+                    let flag=this.products.some(item=>{
+                        return !item.isSelected
+                    });
+                    return !flag
+                },
+                set(val){//当给全选赋予值的时候 影响数组其他项发生变化
+                    this.products.forEach(item=>item.isSelected=val)
+                }
+            }
+
+        }
+    })
+</script>
+</body>
+</html>

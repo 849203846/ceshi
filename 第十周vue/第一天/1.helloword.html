@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--moustoche 小胡子语法-->
+
+
+    {{msg}}
+</div>
+<script src="../../node_modules/vue/dist/vue.js"></script>
+<script>
+//    返回的是vue的实例 也就是viewModel
+    let vm=new Vue({
+        el:'#app',//querySelector
+        data:{//这个对象会被vm所代理,用的是object.defineProperty,set,get,可以实现监控数据的变化，不兼容ie8以下版本
+            msg:'我很帅'}
+    })
+vm.msg='我很帅'
+</script>
+</body>
+</html>

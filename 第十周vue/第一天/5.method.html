@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--如果需要传参数 需要加（）如果不需要则不加，否则需要自己传$event对象-->
+    <!--<button @click="a($event)">点我啊</button>-->
+
+<input type="text" @keyup="a" v-model="fruit" id="val">
+<ul>
+    <li v-for="fruit in fruits">{{fruit}}</li>
+
+
+</ul></div>
+<script src="../../node_modules/vue/dist/vue.js"></script>
+<script>
+    var a=new Vue({
+    el:"#app",
+        data:{
+            fruits:["香蕉","西瓜","橘子"],
+            fruit:''
+        },
+        methods: {//methods一般放置的是函数，一般不放置箭头函数，因为我们希望this是当前实例
+            a(event) {
+
+          if(event.keyCode===13){
+//直接在keyup上.13或者.enter
+                    this.fruits.unshift(this.fruit);
+                    this.fruit=''
+           }
+
+
+            }
+        }
+    })
+</script>
+</body>
+</html>
+<!--<div id="btn" onclick="fn()"></div>-->
+<!--<script>-->
+    <!--console.log(btn.onclick);-->
+    <!--//在原声js中需要增加括号-->
+    <!--function fn() {-->
+        <!--alert(1)-->
+    <!--}-->
+<!--</script>-->

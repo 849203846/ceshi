@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+<script>
+    // 继承的几种方式
+    //     原型继承 call继承 组合继承 冒充对象 中间类继承
+
+    //     arguments类数组 (中间类继承)
+    function fn(){
+        arguments.__proto__=Array.prototype
+
+}
+
+
+// 原型继承
+function a(){
+
+}
+function b(){
+
+}
+b.prototype.fun=function(){}
+
+a.prototype=b
+
+    // 浏览器的异常捕获
+        try{
+            //当try里面的代码报错执行catch中代码
+        }catch(e){
+
+        }
+
+// JSON是一种数据格式
+    // JSON.parse() JSON.stringify() 不兼容ie67
+    // eval() 把json格式的字符串转换成json的对象 相当于JSON.parse()
+
+    // 正则：就是处理字符串的规则
+    test 匹配  返回布尔值  判断当前字符串是否符合我们的规则
+    exec捕获 是把字符串中符合我们规则的内容捕获到
+    返回一个数组 第一个捕获到的内容 第二给捕获到内容的索引 第三个原始的字符串
+    元字符 在正则中有特殊意义的就是元字符
+
+    修饰符
+   g 全局捕获
+    i 忽略大小写
+    m 多行匹配
+    [^] 除了 不是什么的意思
+    \d 0-9之间的一个数字
+    \w 数字字母 下划线 中任意一个字符
+    正则的懒惰性g 贪婪型？
+    // match() 捕获 只会捕获到大正则中的内容 小正则不i会捕获
+
+    数据类型的检测
+    typeof
+    返回字符串
+    instancsOf
+     constructor
+      Object.prototype.toString.call()
+
+      DOM的映射机制;页面中的元素和js中的对象是一一对应的
+      DOM回流 ：DOM的结构方式变化，要对页面的元素进行重新的计算
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    ///复习
+//    一个服务器最多可以有65535个端口，
+//    node有三种模块
+//   1）内置模块：fs url http
+
+        var http=require("http");
+        var fs=require("fs");
+        var url=require("url");
+
+        var server = http.createServer(function(){
+            //当浏览器发送请求并且端口号成功监听到客户端访问
+
+//            fs
+//            fs.readFileAsync() 读取
+//            fs.writeFileSync() 写内容
+            url.parse(); //把获取的内容解析成对象
+            res.end();//告诉服务器响应结束
+        });
+server.linsten(80,function(){
+    //服务 并且这个端口号监听成功
+});
+
+
+
+//    ajax   async javascript and xml
+//    创建一个ajax对象
+    var xhr=new XMLHttpRequest();
+//
+    xhr.open("get","../",false);
+
+    xhr.onreadystatechange=function () {
+        //readyState   0>创建 1：打开地址，配置请求的参数 2：相应头信息已经接受  3服务器正在处理请求的内容  4:浏览器成功接受到服务器响应的内容
+
+        //status  200 表示请求成功
+//        301 永久转义 重定向
+//        302 临时转移
+//        304 表示请求缓存中的内容
+
+//        400 请求参数错误
+//        401 无权限访问
+//        404 地址不存在
+
+//         500 服务器未知错误
+//         503 服务器超载 （负载均衡
+//
+//            get 和post：
+//        get是请求的多 返回的少
+//        get请求数据的时候放在url里面、不安全
+//        get发送数据小
+
+
+        if(xhr.status===200&&xhr.readyState===4){
+            data=xhr.statusText
+        }
+
+
+
+    };
+    xhr.send()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

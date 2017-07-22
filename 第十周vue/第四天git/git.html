@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+//     coding国产的git  有私有平台
+
+//        git
+
+//    sourcetreeapp界面管里
+//    mac安装
+//    苹果本安装iterm2
+//    oh-omzsh
+//    mac安装git通过 homebrew
+//    brew install git
+//    grew install node
+
+//    使用git
+//    linux命令
+//    cd change directory
+//    cd到上一个目录
+//    print working directory
+//    pwd 打印工作目录
+//    git config --list 看当前git配置文件
+//     报错 who are you 表示当前没有配置信息
+
+//    git config --global user.name (github用户名) 配置用户名
+//    git config --global user.email 849203846@qq.com 配置邮箱
+
+//    初始化git
+//    告诉git的管里范围
+
+//    初始化时 切记不要在桌面初始化 具体在某个文件夹内 git 不能git套git
+//    git init 初始化git
+//    rm -rf .git 删除文件rm 删除文件夹时候加 -rf 删掉git地址后面的master
+
+//    mkdir git-demo创建目录 git-demo是文件夹名字
+
+//    进入当前创建的文件夹
+//    cd git-demo
+
+//        git init 在当前文件夹中初始化git文件夹 文件夹里面有一个影藏的git文件夹的配置文件
+
+//    创建目录 mkdir 创建文件 touch index.txt
+//      cat index.txt 查看文件内容 cat +文件名
+//    vi index.txt 编辑当前文件 按I键进入编辑模式
+///    退出编辑模式 esc按键 :q!强制退出（不保存） :wq退出保存编辑的内容 （:set number 查看行数）
+
+
+
+//    提交代码、
+//    初始在工作区                      *红色
+
+//    git add -A(或者.) 提交到暂存区   每次都会有版本id  *绿色
+//    $ git add index.txt
+//           （ warning: LF will be replaced by CRLF in index.txt.
+//           The file will have its original line endings in your working directory.）
+
+
+
+//       git status 查看当前文件的状态颜色
+//       git commit -m'内容' 提交到历史区 版本库  *白色
+//       不加-m的话会提示你写东西/**/
+//             （[master (root-commit) fb9f55f] a
+//              warning: LF will be replaced by CRLF in index.txt.
+//              The file will have its original line endings in your working directory.
+//              1 file changed, 3 insertions(+)
+//               create mode 100644 index.txt）
+
+//    git log 查看日志
+//    git reflog 查看所有日志
+//    git log --oneline 一行显示
+//    git log --grep='a' 通过作者提交的注释内容搜索（git commit -m'内容'）
+
+//    git diff 比较工作区和缓存区
+//    git deff --cached 暂存区和历史区比较
+//    git diff master 工作区和历史区比较
+//
+//    git checkout  回滚暂存区的内容 用暂存区的内容覆盖工作区的
+//    git reset HEAD index.txt 把当前的暂存区回复到上一个暂存区的结果（只能回复一层）
+//    git reset --hard 版本号 从历史区硬回滚到某一个版本号的内容
+
+//    history >1.txt 导出使用过的命令
+
+
+//    分支管里
+//    默认没有分支 只有提交过才拥有分支 只要提交一次就有分支了
+//    git branch  查看分支
+//    git branch dev   创建分支dev
+//    git checkout dev 切换dev分支
+//    git branch -D dev删除dev分支
+//    git checkout -b dev创建并切换
+//    在开发时 需要将内容提交到具体的分支上才可以
+//    提交过一次后两个人的工作区就长得不一样了 如果切换，会导致工作区丢失
+//    在某个分支后提交后在更改，想切换分支，是不允许的，第一种提交后再切换，暂存起来再切换
+
+
+//    git stash 在某个分支上暂存‘将当前的更改保存起来 用历史区将工作区和暂存区覆盖掉，此时没有修改就可以切换’
+//    git stash list 查看暂存区文件编码
+//    git stash pop 回复暂存区文件
+// 提交过的文件可以连写提交
+//    git commit -a -m'd'
+//    这个文件必须提交过一次
+//git merge dev 合并分支 （转换成master 吞掉dev 删除dev）
+
+
+//    合并分支如果有冲突，修复冲突，再次提交
+
+</script>
+</body>
+</html>
