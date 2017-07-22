@@ -5,248 +5,12 @@
     <bookmark url="file://$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/1、复习es6定义变量.html" line="35" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3248d8-f8af-4c30-9f24-9290220e652f" name="Default" comment="课件">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/image/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/客户端和服务器交互.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第四天git/QQ图片20170722113451.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/1、复习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/2、DOS常用的命令.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/3、网站制作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/4、请求数据交互.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/5、node基础.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/6、预习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/less.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第一天/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/1、复习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/2、ajax基础.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/3、ajax兼容.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/4、get和post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/5、同步和异步.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第三天/data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/1、复习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/2、node基础2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/3、NODE的运行.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/4、NODE中的模块.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/5、ajax基础.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/6、预习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/b.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/json/custom.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第二天/作业.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/add2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/custom.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/index1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/复习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第五天/客户管里系统.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/jquery-1.11.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/scrver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/复习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/第四天/跨域.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/add1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/ajax1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/j客户管里系统/1、复习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/j客户管里系统/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/j客户管里系统/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/j客户管里系统/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/j客户管里系统/data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/j客户管里系统/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/j客户管里系统/json/custom.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/j客户管里系统/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第九周ajax/考试内容/v.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/1.helloword.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/2.for.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/3.v-for.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/4.repeat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/5.method.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/MVVM.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/arr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/cart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第一天/txt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第三天复习JS/复习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第三天复习JS/复习免费课.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第三天复习JS/复习第一周.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第三天复习JS/复习第七周.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第三天复习JS/复习第三周.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第三天复习JS/复习第二周.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第三天复习JS/复习第五六周.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第三天复习JS/复习第四周.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/2.v-bind动态绑定.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/6.tudo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/lifyCycle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/dist/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/change-version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/configBridge.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/npm-shrinkwrap.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/js/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/reset-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/less/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/vue.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/vue.esm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/vue.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/vue.runtime.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/vue.runtime.esm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/vue.runtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/dist/vue.runtime.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/types/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/types/options.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/types/plugin.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/types/vnode.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/node_modules/vue/types/vue.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/validate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/watch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/事件修饰符.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/复习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第二天/计算属性.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第四天 node/node基础.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第四天git/11.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第四天git/git.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第四天git/提交到远程仓库.html" />
+    <list default="true" id="7a3248d8-f8af-4c30-9f24-9290220e652f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十周vue/第四天 node/1.callback.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第十周vue/第四天 node/node基础.html" afterPath="$PROJECT_DIR$/第十周vue/第四天 node/node基础.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -260,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="node基础.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="node基础.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第十周vue/第四天 node/node基础.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="585">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.callback.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第十周vue/第四天 node/1.callback.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -277,9 +51,9 @@
       <list>
         <option value="XHTML File" />
         <option value="Less File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -309,9 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/7、正式课第七周/3、20170629正式课第三天/9、animation.html" />
-        <option value="$PROJECT_DIR$/7、正式课第七周/1、20170627正式课第一天/7、字符串string.html" />
-        <option value="$PROJECT_DIR$/7、正式课第七周/2、20170628正式课第二天/5、es6中的函数.html" />
         <option value="$PROJECT_DIR$/7、正式课第七周/4、20170701正式课第四天.html" />
         <option value="$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/1、复习es6定义变量.html" />
         <option value="$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/3、复习es6中的函数.html" />
@@ -360,6 +131,9 @@
         <option value="$PROJECT_DIR$/8、正式课第八周/3、20170706正式课第三天/3、壁纸轮播.html" />
         <option value="$PROJECT_DIR$/8、正式课第八周/3、20170706正式课第三天/css/index.css" />
         <option value="$PROJECT_DIR$/8、正式课第八周/3、20170706正式课第三天/4、h5案例.html" />
+        <option value="$PROJECT_DIR$/第十周vue/第四天 node/node基础.html" />
+        <option value="$PROJECT_DIR$/第十周vue/第四天 node/1.callback.html" />
+        <option value="$PROJECT_DIR$/第十周vue/第四天 node/1.callback.js" />
       </list>
     </option>
   </component>
@@ -370,6 +144,7 @@
     <exe-path />
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -437,6 +212,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.1.3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -465,7 +241,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.1.callback.js">
+    <configuration name="1.callback.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ceshi/第十周vue/第四天 node/1.callback.html" />
+    <configuration name="1.callback.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="1.callback.js" working-dir="$PROJECT_DIR$/第十周vue/第四天 node" />
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -531,6 +309,16 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1.callback.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.1.callback.js" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.1.callback.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1.callback.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -611,12 +399,20 @@
       <workItem from="1499132225545" duration="27960000" />
       <workItem from="1499215454339" duration="24463000" />
       <workItem from="1499305065395" duration="24795000" />
-      <workItem from="1500715543187" duration="192000" />
+      <workItem from="1500715543187" duration="3491000" />
     </task>
+    <task id="LOCAL-00001" summary="课件">
+      <created>1500715816883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500715816883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="954079000" />
+    <option name="totallyTimeSpent" value="957378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -627,7 +423,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3784219" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18803419" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -668,21 +464,16 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
+        <item name="ceshi" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7、正式课第七周/5、20170702正式课第五天/less.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7、正式课第七周/5、20170702正式课第五天/9、less基础.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7、正式课第七周/5、20170702正式课第五天/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
@@ -794,6 +585,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17869" lean-forward="false" selection-start-line="0" selection-start-column="17869" selection-end-line="0" selection-end-column="17869" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -816,6 +608,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -980,10 +773,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/第十周vue/第四天 node/1.callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/第十周vue/第四天 node/node基础.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十周vue/第四天 node/1.callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
