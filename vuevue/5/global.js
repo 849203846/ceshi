@@ -147,4 +147,10 @@ process.nextTick(function () {
 
 // 核心模块
 //     uril 继承
-// events 事件库 发布订阅模式 class2231
+// events 事件库 发布订阅模式 class2231、
+
+
+
+
+
+

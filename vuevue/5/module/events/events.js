@@ -13,7 +13,9 @@ Girl.prototype.on=function (eventName,callback) {//订阅
 };
 Girl.prototype.removeListener=function (eventName, callback) {
     if(this._events[eventName]){
-
+if(!this._events[eventName].hasOwnProperty(callback)){
+    this._events[eventName]= this._events[eventName].filter(item=>item!==a)
+}
         // filter返回false 表示在数组中移除掉 保证操作的时原来的对象
         this._events[eventName]= this._events[eventName].filter(item=>item!==callback)
 
@@ -25,12 +27,15 @@ Girl.prototype.emit=function (eventName,...arg) {//发布   剩余运算符
         this._events[eventName].forEach(item=>item.call(this,...arg))
     }
 };
+var a=null
 Girl.prototype.once=function (eventName,callback) {
   //绑定-》执行-》解绑
     function wrap() { //增加一个一次性函数 在次函数中调用原有的逻辑 在删除这个一次性函数
         callback.apply(this,arguments)
         this.removeListener(eventName,wrap)
     }
+    a=wrap
+
   this.on(eventName,wrap);
 
 
