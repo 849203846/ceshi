@@ -14,19 +14,19 @@
     let vm=new Vue({
         el:'#app', //挂载点 数据应用到那里
 //       钩子函数 ，其实就是回调函数
-        beforeCreate:{},//表示实例创建之前
-        Created:{},//表示已经完成数据的绑定，事件的绑定可以调用ajax
-        beforeMount:{}, //挂在前面
-        mounted:{},//当前页面已经形成，此时可以获取真实的DOM元素
-        beforeUpdate:{},
-        updated:{},//只要视图发生变化就会调用updated
-        beforeDestray:{}, //在销毁钱会在此时移除定时器，移除一些自己监听的事件
-        destrayed:{},//
-        methodes:{},//自定义的方法
-        directives:{},//自定义指令 指令v-xxx html的属性   指定一些功能这里可以操作DOM自己封装功能，写自己的逻辑和功能
-        watch:{},//监听，当值变化了就会触发自己的函数，默认只监控一层
-        computed:{},//get方法 set方法 get时根据其他人的值计算出自己的值，set给他设置的时候影响其他人的值,只能写同步的
-        data:{},//数据驱动，显示时取决于数据的
+//        beforeCreate:{},//表示实例创建之前
+//        Created:{},//表示已经完成数据的绑定，事件的绑定可以调用ajax
+//        beforeMount:{}, //挂在前面
+//        mounted:{},//当前页面已经形成，此时可以获取真实的DOM元素
+//        beforeUpdate:{},
+//        updated:{},//只要视图发生变化就会调用updated
+//        beforeDestray:{}, //在销毁钱会在此时移除定时器，移除一些自己监听的事件
+//        destrayed:{},//
+//        methodes:{},//自定义的方法
+//        directives:{},//自定义指令 指令v-xxx html的属性   指定一些功能这里可以操作DOM自己封装功能，写自己的逻辑和功能
+//        watch:{},//监听，当值变化了就会触发自己的函数，默认只监控一层
+//        computed:{},//get方法 set方法 get时根据其他人的值计算出自己的值，set给他设置的时候影响其他人的值,只能写同步的
+//        data:{},//数据驱动，显示时取决于数据的
 //        所有函数中的this基本指向都是当前的实
 
     })

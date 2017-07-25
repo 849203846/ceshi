@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+//    局部组件只能在组件下使用、。 定义在某一个组件下面
+//组件使用三部分1）组件的引用2）定义这个组件3)通过标签应用
+    let vm=new Vue({
+        el:'#app',
+        template:'<div><hello></hello> <my/></div>',
+        components:{//定义在里面就叫做局部组件，局部组件只能在父级的模版中 使用
+            'hello':{
+                template:'<h1><hello-caild/>我爱你</h1>'
+                ,components:{
+                    'hello-caild':{
+                        template:'<h1>我也爱你 <hh></hh> </h1>',
+                        components:{
+                            'hh':{
+                                template:'<h1>我也很爱你</h1>',
+                            }
+                        }
+                    }
+                }
+            },
+            'my':{
+                template:'<h1>我恨你</h1>'
+            }
+        }
+    })
+
+
+
+
+</script>
+</body>
+</html>

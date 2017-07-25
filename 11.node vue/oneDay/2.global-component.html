@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <div><hello1/></div><div><hello1/></div><div><hello1/></div><div><hello1/></div><div><hello1/></div>
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    //定义全局组件(适合在任意的地方都能使用，一般用它可以写公用的插件），特殊的html 赋予标签一些特殊的含义，重点时多个小组件组成完整的页面而且提高复用性
+//    命名规范:不能使用已经存在的标签
+    Vue.component('hello1',{
+        template:'<h1>我爱你<h1>{{a}}</h1></h1>',
+        data(){return {a:'xxxxxxxxxxxxxxxxxxxxxxx'}} //组件中的data都是函数返回对象，如果用对象 的话，就不能保证组件的独立性,返回的对象就是当前组件的数组
+    });//一个对象输可以看成一个组件
+    let vm=new Vue({
+        el:'#app',
+        template:'<div><hello1/></div>',//要有惟一的根元素，模版中的元素必须要有一个跟元素
+    })
+
+</script>
+</body>
+</html>
