@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <div>
+        <div>
+            你好
+        </div>
+    </div>
+</div>
+<template id="hello">
+    <div>你好
+        <slot name="you">不好</slot>
+        <slot name="my">不好</slot>
+        <alot name="she">她</alot>
+        <slot></slot>
+    </div>
+</template>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+//slot 插槽  留下一些接口等待使用
+//slot默认的名字name=default 还可以定义具名slot，将对应的内容插到对应的位置
+//可以在slot里面放置一些默认值 如果传值就替换掉
+let hello={template:'#hello'};
+    let vm=new Vue({
+        template:'<div><hello>傻瓜<p slot="my">我很好</p><p slot="you">我很好</p>天才</hello></div>',
+        components:{
+            hello
+        }
+    }).$mount('#app')
+</script>
+</body>
+</html>
