@@ -4,14 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/3、正式课第三周/2、20170531正式课第二天/2、复习盒子模型.html" line="12" />
     <bookmark url="file://$PROJECT_DIR$/7、正式课第七周/4、2017-0701正式课第四天/1、复习es6定义变量.html" line="35" />
     <bookmark url="file://$PROJECT_DIR$/11.node vue/oneDay/3.scope-component.html" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/11.node vue/oneDay/6.valiate.html" line="28" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a3248d8-f8af-4c30-9f24-9290220e652f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.node vue/oneDay/2.global-component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.node vue/oneDay/3.scope-component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.node vue/oneDay/4.compontent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.node vue/oneDay/5.parent-child.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.node vue/oneDay/6.valiate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.node vue/oneDay/7.child-parent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.node vue/oneDay/8.sync.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.node vue/oneDay/9.silblings.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/11.node vue/oneDay/review.html" afterPath="$PROJECT_DIR$/11.node vue/oneDay/review.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/11.node vue/oneDay/4.compontent.html" afterPath="$PROJECT_DIR$/11.node vue/oneDay/4.compontent.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,41 +31,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="2.global-component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/2.global-component.html">
+      <file leaf-file-name="8.sync.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/8.sync.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="496">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.scope-component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/3.scope-component.html">
+      <file leaf-file-name="9.silblings.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/9.silblings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="223">
+              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.compontent.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/4.compontent.html">
+      <file leaf-file-name="6.valiate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/6.valiate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="review.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/review.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-390">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="690">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -110,11 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/8、正式课第八周/1、20170704正式课第一天/5、立方体.html" />
-        <option value="$PROJECT_DIR$/8、正式课第八周/1、20170704正式课第一天/6、移动端click.html" />
-        <option value="$PROJECT_DIR$/8、正式课第八周/2、20170705正式课第二天/2、touch.html" />
-        <option value="$PROJECT_DIR$/8、正式课第八周/2、20170705正式课第二天/zepto.js" />
-        <option value="$PROJECT_DIR$/8、正式课第八周/2、20170705正式课第二天/3、zepto.html" />
         <option value="$PROJECT_DIR$/8、正式课第八周/3、20170706正式课第三天/1、复习.html" />
         <option value="$PROJECT_DIR$/8、正式课第八周/2、20170705正式课第二天/4、ejs.html" />
         <option value="$PROJECT_DIR$/8、正式课第八周/2、20170705正式课第二天/5、swiper.html" />
@@ -161,6 +149,11 @@
         <option value="$PROJECT_DIR$/11.node vue/oneDay/2.global-component.html" />
         <option value="$PROJECT_DIR$/11.node vue/oneDay/3.scope-component.html" />
         <option value="$PROJECT_DIR$/11.node vue/oneDay/4.compontent.html" />
+        <option value="$PROJECT_DIR$/11.node vue/oneDay/5.parent-child.html" />
+        <option value="$PROJECT_DIR$/11.node vue/oneDay/6.valiate.html" />
+        <option value="$PROJECT_DIR$/11.node vue/oneDay/7.child-parent.html" />
+        <option value="$PROJECT_DIR$/11.node vue/oneDay/8.sync.html" />
+        <option value="$PROJECT_DIR$/11.node vue/oneDay/9.silblings.html" />
       </list>
     </option>
   </component>
@@ -253,7 +246,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -477,7 +470,7 @@
       <workItem from="1500877525593" duration="7244000" />
       <workItem from="1500905248793" duration="811000" />
       <workItem from="1500909710226" duration="1650000" />
-      <workItem from="1500941783592" duration="8634000" />
+      <workItem from="1500941783592" duration="18896000" />
     </task>
     <task id="LOCAL-00001" summary="课件">
       <created>1500715816883</created>
@@ -535,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500948255275</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="课件">
+      <created>1500953292101</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1500953292101</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1030650000" />
+    <option name="totallyTimeSpent" value="1040912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,11 +630,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vuevue/5/module/npm/node_modules/jw-handsome/index.js" />
-    <entry file="file://$PROJECT_DIR$/vuevue/5/module/util/es5class.js" />
-    <entry file="file://$PROJECT_DIR$/vuevue/第一天/txt.txt" />
-    <entry file="file://$PROJECT_DIR$/vuevue/第一天/1.helloword.html" />
-    <entry file="file://$PROJECT_DIR$/vuevue/第一天/arr.js" />
     <entry file="file://$PROJECT_DIR$/vuevue/第四天git/11.txt" />
     <entry file="file://$PROJECT_DIR$/vuevue/第四天git/git.html" />
     <entry file="file://$PROJECT_DIR$/vuevue/第四天 node/1.callback.js" />
@@ -850,14 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/review.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/3.scope-component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -868,8 +855,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/4.compontent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="659">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/7.child-parent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/5.parent-child.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <marker date="1500955271171" expanded="true" signature="496:544" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/6.valiate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/8.sync.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/9.silblings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding />
         </state>
       </provider>

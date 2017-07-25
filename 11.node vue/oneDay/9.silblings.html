@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app"></div>
+<template id="c1">
+    <div>
+        <div>组件一</div>
+        <button @click="fend">给c2传值</button>
+        <div>{{say1}}</div>
+    </div>
+</template>
+<template id="c2">
+    <div>
+        <div>组件一</div>
+        <button @click="send">给c1传值</button>
+        <div>{{say2}}</div>
+    </div>
+</template>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    let eventBus = new Vue()//构建一个实例通过用一个实例发射事件和监听事件,缺点时一呼百应 非常冗余复杂 交互困难
+    let c1 = {
+        template: '#c1',
+        data() {
+            return {say1: '我很帅'}
+        },
+        created() {
+            eventBus.$on('送给c1',(val) =>{
+                this.say1 = val
+            })
+        },
+        methods:{
+            fend(){
+                eventBus.$emit('送给c2',this.say1)
+            }
+        }
+    };
+    let c2 = {
+        created(){
+            eventBus.$on('送给c2', (val)=> {
+                this.say2=val
+            })
+        },
+        template: '#c2', data() {
+            return {say2: '我很漂亮'}
+        },
+        methods: {
+            send() {
+                eventBus.$emit('送给c1', this.say2)
+            }
+        }
+    };
+    let vm = new Vue({
+        template: '<div><c1></c1><c2></c2></div>',
+        components: {c1, c2}
+    }).$mount('#app')
+</script>
+</body>
+</html>

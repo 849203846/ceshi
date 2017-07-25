@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    //想通过点击改变父亲数据 想法1 父亲将属性传递给儿子 儿子把数据改掉
+let App={template:`
+<div><button @click="change">点我啊</button></div>` ,
+    props:['m'],
+//    data(){return{a:this.m},
+    methods:{
+    change(){
+        this.$emit('child-msg','我恨你')//发布消息给父亲
+//        this.m='我恨你'//不能更改父级传进来的属性 想改也只能申明一下该自己的属性
+    }
+    }
+};
+    let vm=new Vue({
+        //发布订阅模式 on emit
+        data:{msg:"我爱你"}, //父亲绑定一个自定义事件 来监听儿子的动作 当儿子事件发射后 执行 此fn
+        template:'<div><App :m="msg" @child-msg="fn" />{{msg}}</div>',
+        components:{App},
+        methods:{
+            fn(msg){
+                this.msg=msg
+            }
+        }
+
+    }).$mount('#app')
+
+
+
+
+//    vuex //统一管里数据
+
+</script>
+</body>
+</html>

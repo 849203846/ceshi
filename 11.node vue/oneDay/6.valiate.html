@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+let app={
+    template:'<div>空{{msg}}</div>',
+//    props:['msg'] //不能校验
+    props:{//椒盐传递的内容
+        msg:{
+//            required:true, //必须要传当前属性 校验了是否传递此属性，如果时空也可以
+//            msg:{default:'我爱你'}//如果没有传递属性使用默认值
+//            msg:{type:String}//通过冒号传递的数字才是数字类型的 如果传过来没有冒号就是字符串
+//            msg:{type:[String,Number,Object]}//数组时或的关系 写在数组里的类型都可以
+            msg:{validator(val){//验证器
+//                当前传过来的形参，是接受到的参数 如果此时函数返回true 表示通过校验
+               return val==='我爱你';
+            }},
+            flag:{type:Boolean}
+        }
+    }
+}
+    let vm=new Vue({
+        template:`<app :msg="13" flag="true"/>`,
+//        template:`<app :msg="'我爱你'"/>`,
+//        template:'<app msg="\'我爱你\'"/>',
+        components:{
+            app
+        }
+    }).$mount('#app')
+</script>
+</body>
+</html>
