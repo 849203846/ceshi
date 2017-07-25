@@ -85,7 +85,7 @@
             obj.id = id;
             ajax({
                 url : "/updateInfo",
-                type:post,
+                type:'post',
                 data:JSON.stringify(obj),
                 success:function (jsonData) {
                     if(jsonData.code == 0){

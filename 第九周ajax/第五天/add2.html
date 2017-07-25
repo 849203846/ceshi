@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="ajax.js"></script>
 </head>
 <body>
 <div class="box2">
@@ -10,14 +12,15 @@
     <div><span>年龄</span><input type="text" id="userage"></div>
     <div><span>电话</span><input type="text" id="userphone"></div>
     <div><span>地址</span><input type="text" id="useraddress"></div>
-  <button id="btn">提交</button>
+  <button id="btn" class="sumbit">提交</button>
 </div>
 <script>
-    let username=document.getElementById('username'),userage=document.getElementById('userage'),userphone=document.getElementById('userphone'),useraddress=document.getElementById('useraddress'),urlobj=widnow.location.href,index=urlobj.indexOf('='),id=urlobj.substr(index+1),isflag=index<0?false:true
 
+    var  username=document.getElementById('username'),userage=document.getElementById('userage'),userphone=document.getElementById('userphone'),useraddress=document.getElementById('useraddress'),urlobj=window.location.href,index=urlobj.indexOf('='),id=urlobj.substr(index+1),isflag=index<0?false:true
+    debugger
     if(isflag){
         ajax({
-            url:'getinfo?id='+id,
+            url:'/getInfo?id='+id,
             success:function (jsondata) {
                 if(jsondata.code==0){
                     var data=jsondata['data']
@@ -42,23 +45,23 @@
         if(isflag){
             obj.id=id;
             ajax({
-                url:'updatainfo',
+                url:'/updateInfo',
                 type:'post',
-                data:obj,
+                data:JSON.stringify(obj),
                 success:function (jsondata) {
                     if(jsondata.code==0){
                         window.location.href='index.html'
                         return
                     }
-                    alert(jsondata.mse)
+                    alert(jsondata.msg)
                 }
             })
         }
 
         ajax({
-            url:'addinfo',
+            url:'/addInfo',
             type:'post',
-            data:obj,
+            data:JSON.stringify(obj),
             success:function (jsondata) {
                 if(jsondata.code==0){
                     window.location.href='index.html'
