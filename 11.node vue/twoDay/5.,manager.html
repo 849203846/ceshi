@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<div id="app">
+    <div class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand">珠峰管里系统</a>
+            </div>
+            <ul class="navbar-nav nav">
+                <li>
+                    <router-link to="/home">首页</router-link>
+                </li>
+
+
+                <li v-if="!isLogin">
+                    <router-link to="/login">登录</router-link>
+                </li>
+                <template v-else>
+                    <li>
+                        <router-link to="/profile">个人中心</router-link>
+                    </li>
+                    <li>
+                        <router-link to="">退出</router-link>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!--当路径切换的时候 这时会将组件移除掉 新的组件放进来-->
+                <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">                <router-view style="position: absolute;top: 0;left: 0;width: 100%"></router-view></transition>
+<!--//切换时默认在同一个水平面内 要两个人都在一个平面内 默认动画是同时进行-->
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<template id="home">
+    <!--首页的结构-->
+    <div>
+        首页
+    </div>
+
+
+</template>
+<template id="profile">
+    <!--个人中心的结构-->
+    <div>
+        <div class="col-md-3">
+            <ul class="nav nav-stacked">
+                <li>
+                    <router-link to="/profile/order/1">订单一</router-link>
+                </li>
+                <li>
+                    <router-link to="/profile/order/2">订单二</router-link>
+                </li>
+                <li>
+                    <router-link to="/profile/order/3">订单三</router-link>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="col-md 9">欢迎查看
+            <router-view>
+
+            </router-view>
+        </div>
+
+
+    </div>
+
+
+</template>
+<template id="login">
+    <!--登录的结构-->
+    <div>
+        登录页
+    </div>
+
+
+</template>
+<template id="order">
+    <div>订单{{$route.params.oid}}</div>
+</template>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script src="node_modules/vue-router/dist/vue-router.js"></script>
+<script>
+    let Home = {template: '#home'};
+    let Profile = {template: '#profile'};
+
+    let Login = {template: '#login'};
+    let Order = {template: '#order'};
+    let Welcame={template:`<div>欢迎来查看订单</div>`}
+
+    let router = new VueRouter({
+        routes: [
+            {path: '/home', component: Home},
+            {
+                path: '/profile', component: Profile,
+                children: [
+                    {path:'',component: Welcame}, //配置默认页面
+                    {path: 'order/:oid', component: Order}
+
+                ]
+            },
+            {path: '/login', component: Login},
+            {path: '*', redirect: '/home'} //404的
+
+
+        ]
+    });
+    let vm = new Vue({
+        data: {isLogin: true},//本地存储中的一个值login 如果有用户名表示登录过 如果灭有则未登录
+        router,
+        created() {
+            this.checkLogin()
+        },//做操作检测是否登录，取一下本地看一下是否有用户名
+        methods: {
+            checkLogin() {
+                if (localStorage.getItem('login') == undefined) {
+//                    没登录过
+                    this.isLogin = true
+                } else {
+                    this.login = true
+                }
+            }
+        }
+
+    }).$mount('#app')
+</script>
+</body>
+</html>

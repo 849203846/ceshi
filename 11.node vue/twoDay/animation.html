@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 1200px;
+            height: 500px;
+            border-radius: 50%;
+            background: lightblue;
+
+        }
+
+        .v-enter {
+            opacity: 0;
+
+        }
+
+        .v-enter-active {
+            -webkit-transition: all 1s;
+
+        }
+
+        .v-leave-active {
+            opacity: 0;
+
+            -webkit-transition: all 1s;
+
+
+        }
+    </style>
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+</head>
+<body>
+<div id="app">
+    <button @click="flag=!flag">点我啊</button>
+    <!--v-show v-if v-for 实现vue的动画-->
+    <transition enter-active-class="animated bounceInDown" leave-active-class="animated bounceOutUp" >
+        <div class="box" v-show="flag" >
+
+        </div>
+    </transition>
+
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    let vm = new Vue({
+        data: {
+            flag: false
+        }
+    }).$mount('#app')
+</script>
+</body>
+</html>
