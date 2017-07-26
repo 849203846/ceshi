@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+        <head>
+        <meta charset="UTF-8">
     <title>Title</title>
-</head>
-<body>
-<div id="app">
+    </head>
+    <body>
+    <div id="app">
 
-</div>
-<script src="node_modules/vue/dist/vue.js"></script>
+    </div>
+    <script src="node_modules/vue/dist/vue.js"></script>
 <script>
-//    将数据都挂在到viewModel  双向数据绑定,input元素 textarea（文本域） select
+    //    将数据都挂在到viewModel  双向数据绑定,input元素 textarea（文本域） select
     let vm=new Vue({
         el:'#app', //挂载点 数据应用到那里
 //       钩子函数 ，其实就是回调函数
@@ -27,7 +27,7 @@
 //        watch:{},//监听，当值变化了就会触发自己的函数，默认只监控一层
 //        computed:{},//get方法 set方法 get时根据其他人的值计算出自己的值，set给他设置的时候影响其他人的值,只能写同步的
 //        data:{},//数据驱动，显示时取决于数据的
-//        所有函数中的this基本指向都是当前的实
+//        所有函数中的this基本指向都是当前的实例
 
     })
 

@@ -42,15 +42,10 @@
 //        console.log(this)
 //        this.replace(reg,function () {
 ////            console.log(arguments)
-//            var key = arguments[1];
-//            var value = arguments[2];
-//            obj[key]  = value;
-//        })
-//        return obj;
-//    }
-//     var str = "http://www.zhufeng.com?username=zhufeng&userpassword=123";
-//    var obj = str.queryURLParameter();
-//    console.log(obj)
+//            var key = arguments[1]; //            var value = arguments[2];
+//            obj[key]  = value; //        }) //        return obj; //    } //
+var str = "http://www.zhufeng.com?username=zhufeng&userpassword=123"; //
+var obj = str.queryURLParameter(); //    console.log(obj)
     if(isFlag){
         ajax({
             url : "/getInfo?id="+id,
