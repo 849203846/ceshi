@@ -17,8 +17,6 @@
                 <li>
                     <router-link to="/home">首页</router-link>
                 </li>
-
-
                 <li v-if="!isLogin">
                     <router-link to="/login">登录</router-link>
                 </li>
@@ -36,9 +34,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <!--mint.ul element.ui-->
                 <!--当路径切换的时候 这时会将组件移除掉 新的组件放进来-->
-                <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">                <router-view style="position: absolute;top: 0;left: 0;width: 100%"></router-view></transition>
-<!--//切换时默认在同一个水平面内 要两个人都在一个平面内 默认动画是同时进行-->
+                <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+                    <router-view style="position: absolute;top: 0;left: 0;width: 100%"></router-view>
+                </transition>
+                <!--//切换时默认在同一个水平面内 要两个人都在一个平面内 默认动画是同时进行-->
             </div>
         </div>
     </div>
@@ -49,10 +50,10 @@
     <!--首页的结构-->
     <div>
         首页
+        <button @click="$router.push('/login')">点击</button>
     </div>
-
-
 </template>
+
 <template id="profile">
     <!--个人中心的结构-->
     <div>
@@ -69,56 +70,61 @@
                 </li>
             </ul>
         </div>
-
-
         <div class="col-md 9">欢迎查看
             <router-view>
-
             </router-view>
         </div>
-
-
     </div>
-
-
 </template>
 <template id="login">
-    <!--登录的结构-->
-    <div>
-        登录页
-    </div>
-
-
 </template>
 <template id="order">
-    <div>订单{{$route.params.oid}}</div>
-</template>
+    <div>订单{{$route.params.oid}}</div></template>
+
 <script src="node_modules/vue/dist/vue.js"></script>
 <script src="node_modules/vue-router/dist/vue-router.js"></script>
 <script>
     let Home = {template: '#home'};
     let Profile = {template: '#profile'};
-
     let Login = {template: '#login'};
     let Order = {template: '#order'};
-    let Welcame={template:`<div>欢迎来查看订单</div>`}
+    let Welcame = {template: `<div>欢迎来查看订单</div>`};
 
     let router = new VueRouter({
         routes: [
             {path: '/home', component: Home},
             {
-                path: '/profile', component: Profile,
+                path: '/profile',
+                component: Profile,
                 children: [
-                    {path:'',component: Welcame}, //配置默认页面
+                    {path: '', component: Welcame}, //配置默认页面
                     {path: 'order/:oid', component: Order}
 
-                ]
+                ],
+                meta: {//这里可以 存放自定义的备注信息
+                    need: true
+                }
             },
             {path: '/login', component: Login},
             {path: '*', redirect: '/home'} //404的
-
-
         ]
+    });
+    //    在路由切换的每一个之前都会调用
+    router.beforeEach((to, from, next) => {
+//        next是一个函数 如果调用了next表示继续执行
+//        to表示去那
+//        from是之前的页面
+//        需要拿到atched里的一个匹配的数组，如果其中某一个对象有meta属性并且needLogin是true表示需要登录 ，如果登录过就继续运行 没登录过就跳转到登录页面、
+        let flag = to.matched.some(item => item.meta.need) ;//查找所有匹配的是否有true
+        if (flag) {
+            if (localStorage.getItem('login') == null) {
+                next({path: '/login'})
+            } else {
+                next()
+            }
+        } else {
+            next()//如果不需要验证 直接进去即可
+        }
     });
     let vm = new Vue({
         data: {isLogin: true},//本地存储中的一个值login 如果有用户名表示登录过 如果灭有则未登录
@@ -130,9 +136,9 @@
             checkLogin() {
                 if (localStorage.getItem('login') == undefined) {
 //                    没登录过
-                    this.isLogin = true
+                    this.isLogin = false
                 } else {
-                    this.login = true
+                    this.login = false
                 }
             }
         }
