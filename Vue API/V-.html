@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+<div><span></span>
+    {{ number + 1 }}
+    {{ ok ? 'YES' : 'NO' }}
+    {{ message.split('').reverse().join('') }}
+    <div v-bind:id="'list-' + id"></div>
+    <!--&lt;!&ndash; 这是语句，不是表达式 &ndash;&gt;-->
+    <!--{{ var a = 1 }}-->
+    <!--&lt;!&ndash; 流控制也不会生效，请使用三元表达式 &ndash;&gt;-->
+    <!--{{ if (ok) { return message } }}-->
+
+    <!-- in mustaches -->
+    {{ message | capitalize }}
+    <!-- in v-bind -->
+    <div v-bind:id="rawId | formatId"></div>
+</div>
+</div>
+
+
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+         number:1,
+            ok:false,
+            message:"1,2,3,4,5",
+            capitalize:'1,2,3,4,5,6',
+            id:2,
+            rawId:1,
+            formatId:2
+        }
+    })
+</script>
+</body>
+</html>

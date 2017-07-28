@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="example">
+    <p>Original message: "{{ message }}"</p>
+    <p>Computed reversed message: "{{ reversedMessage }}"</p>
+    <p>Computed reversed message: "{{ reversedMessage1() }}"</p>
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#example',
+        data: {
+            message: 'Hello'
+        },
+        methods: { //在此方法没有发生改变的时候 多次执行当前方法 当前方法不会执行 只会返回上次执行的结果
+            reversedMessage1: function () {
+                return new Date()
+                return this.message.split('').reverse().join('')
+            }
+        },
+        computed: {
+            // a computed getter
+            reversedMessage: function () { //
+                // `this` points to the vm instance
+                return new Date()
+                return this.message.split('').reverse().join('')
+            }
+        }
+    })
+</script>
+</body>
+</html>
