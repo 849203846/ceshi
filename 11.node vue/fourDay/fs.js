@@ -51,9 +51,7 @@
 
 
 
-
-
-
+// 利用发布订阅完成上面实例
 let fs=require('fs');
 let EventEmitter=require('events');
 let e=new EventEmitter() ; //on once remove 都是实例上的方法
@@ -74,6 +72,14 @@ fs.readFile('age.txt','utf-8',function (err,data) {
     obj.age=data;
     e.emit('获取后')
 });
+
+// node版本不能低于7.6
+// es6 promise 承诺 针对callback 提供了链式写法
+// generator 为了解决异步方式的 想让异步代码写起来像同步的--废了
+// function * yield - > async await想让异步代码写起来像同步 语法更加简介
+
+// async await是基于promise的 高版本浏览器自带promise
+// ajax四部曲-》 fetch 也是基于promise的
 
 
 
