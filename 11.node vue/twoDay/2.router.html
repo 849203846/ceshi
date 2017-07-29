@@ -27,7 +27,7 @@
 // browserHistory 浏览器自带的历史 会导致刷新时404（上线使用）
 let Home={template:'<div>首页</div>'};
 let List={template:'<div>列表页</div>'};
-let Article={template:`<div>这是第{{$route.params.aid}}篇文章</div>`}
+let Article={template:`<div>这是第{{$route.params.aid}}篇文章</div>`};
 let routes=[ //映射表 路由的匹配关系
 //    {path:'',component:Home}, //不能解决404问题
     {path:'/home',component:Home},
@@ -38,15 +38,10 @@ let routes=[ //映射表 路由的匹配关系
 ];
 let router=new VueRouter({
 //    mode:'history',//转化成没有#的状态
-routes//注册路由表   
-
+routes//注册路由表
 });
-
-
     let vm=new Vue({
         router,//当前实例上会有两个属性 this.$route（这里提供的 都是属性） this.$router(这里提供的都是方法）
-
-
     }).$mount('#app')
 </script>
 </body>
