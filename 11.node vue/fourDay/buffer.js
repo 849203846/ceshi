@@ -125,7 +125,7 @@ console.log((0xff).toString(2));
 
 // base64 进制转换 把图片转换成base64 不是加密 md5 不是加密（不可逆）
 // 当前的字节最大不超过64
-let buffer=new Buffer('珠')
+let buffer=new Buffer('珠');
 console.log(buffer);//<Buffer e7 8f a0>
 // 16进制转换成2进制的
 
@@ -134,18 +134,14 @@ console.log((0x8f).toString(2));//10001111
 console.log((0xa0).toString(2));//10100000
 // base64  最大64  二进制
 // 111001 111000 111110 100000
-console.log(parseInt('111001',2));
-console.log(parseInt('111000',2));
-console.log(parseInt('111110',2));
-console.log(parseInt('100000',2));
-let str='ABCDEFGHIGKLMNOPQRSTUVWXYZ'
-str+=str.toLowerCase()
-str+='0123456789'
-str+='+/'
-// 57
-// 56
-// 62
-// 32
+console.log(parseInt('111001',2));// 57
+console.log(parseInt('111000',2));// 56
+console.log(parseInt('111110',2));// 62
+console.log(parseInt('100000',2));// 32
+let str='ABCDEFGHIGKLMNOPQRSTUVWXYZ';
+str+=str.toLowerCase();
+str+='0123456789';
+str+='+/';
 console.log(str[57] + str[56] + str[62] + str[32]); //base64编码 54+g
 
 // 正确说法： 不是将图片都转为base64 较小的图片可以转换 可以减少请求 不要全部都转
