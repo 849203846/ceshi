@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    let vm = new Vue({
+        data: {
+            con: 0
+        },
+        template: `<div>
+    <button @click="cone">{{con}}</button>
+    <button @click="cone">{{con}}</button>
+    <button @click="cone">{{con}}</button>
+{{con}}
+</div>`
+,
+    methods:{
+        cone(){
+            return this.con+1
+        }
+    }
+    }).$mount('#app')
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <select v-model="selea">a
+        <option v-for="a in options " :value="a.test">aaaaa{{a.value}}</option>
+
+    </select>
+    {{selea}}
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    let vm=new Vue({
+        data:{
+            selea:'A',
+            options : [
+            {test:'one',value:'A'},
+                {test:'two',value:'B'},
+                {test:'SAN',value:'c'},
+    ]
+        }
+    }).$mount('#app')
+</script>
+</body>
+</html>

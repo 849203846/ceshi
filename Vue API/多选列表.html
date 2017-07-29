@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <select v-model="a" multiple style="width: 1000px;">
+
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </select>
+{{a}}
+
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    let vm=new Vue({
+        data:{
+            a:[]
+        }
+
+
+
+    }).$mount('#app')
+</script>
+</body>
+</html>

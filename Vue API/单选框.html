@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="radio" id="jack" value="1" v-model="me">
+    <label for="jack">jack</label>
+    <input type="radio" id="node" value="2" v-model="me">
+    <label for="node">node</label>
+    <input type="radio" id="node1"  value="3" v-model="me">
+    <label for="node1">node1</label><br>
+    {{me}}
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    let vm=new Vue({
+        data:{
+            me:''
+        }
+    }).$mount('#app')
+</script>
+</body>
+</html>

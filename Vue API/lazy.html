@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <input v-model.lazy="msg" >
+
+
+    <input v-model.number="msg1"  type="number">
+
+
+    <input v-model.trim="msg2" >
+    {{msg2}}
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    let vm=new Vue({
+        data:{
+            msg:'123',
+            msg1:654,
+            msg2:'ds'
+        }
+
+
+    }).$mount('#app')
+</script>
+</body>
+</html>

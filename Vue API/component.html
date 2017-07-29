@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<my>
+
+</my>
+</div>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    // 注册  b必须在new vue前面写  不然报错
+    Vue.component('my', {
+        template: '<div>A !</div>'
+    })
+    // 创建根实例  当前my是自定义的标签
+    new Vue({
+        el: '#app'
+    })
+
+</script>
+</body>
+</html>
