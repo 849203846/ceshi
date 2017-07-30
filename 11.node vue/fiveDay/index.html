@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="time"></div>
+<!--<script>-->
+    <!--//要通过自己的服务端访问-->
+    <!--let xhr=new XMLHttpRequest()-->
+    <!--xhr.open('get','/clock',true)-->
+    <!--xhr.responseType='json'-->
+<!--//    xhr.onreadystatechange=function () {-->
+<!--//        if(xhr.readyState==4&&xhr.status==200){-->
+<!--////            如果相应内容限制成了json 只能使用response-->
+<!--////           time.innerHTML=xhr.responseText-->
+<!--//            time.innerHTML=xhr.response.time-->
+<!--//        }-->
+<!--//    }-->
+    <!--xhr.onload=function () { //相当于==4 ==200状态了-->
+            <!--time.innerHTML=xhr.response.time-->
+        <!--}-->
+    <!--}-->
+    <!--xhr.send()-->
+
+<!--//    同源策略 协议 ip 端口 一个不一致都不能访问-->
+
+
+
+
+
+
+
+
+
+<!--</script>-->
+<script>
+    function ajax({url='',method='get',dataType='text',data=null,async=true}) {
+
+        return new Promise( (resolve, reject)=> {
+            let xhr=new XMLHttpRequest()
+            xhr.open(method,url,async)
+            xhr.responseType=dataType;
+            xhr.onload= () =>{
+                resolve(xhr.response)
+            }
+            xhr.onerror= (err)=> {
+                reject(err)
+            }
+            xhr.send(data)
+        })
+
+    }
+    ajax({
+        url:'clock',
+        dataType:'json'
+    }).then(function (res) {
+        time.innerHTML=res.time
+    })
+</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-// // 读出source的内容再写入到target中
+//  读出source的内容再写入到target中
 // fs=require('fs');
 // function copySync(source,target) { //readFileSync  writeFileSync
 //     let a=fs.readFileSync(source);

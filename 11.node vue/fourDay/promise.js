@@ -13,7 +13,7 @@ promise.then(function () {
     console.log('成功');
 }, function () {
     console.log('失败');
-})
+});
 
 
 
