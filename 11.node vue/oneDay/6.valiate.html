@@ -18,10 +18,10 @@ let app={
 //            msg:{type:String}//通过冒号传递的数字才是数字类型的 如果传过来没有冒号就是字符串
 //            msg:{type:[String,Number,Object]}//数组时或的关系 写在数组里的类型都可以
             msg:{validator(val){//验证器
-//                当前传过来的形参，是接受到的参数 如果此时函数返回true 表示通过校验
+    //                当前传过来的形参，是接受到的参数 如果此时函数返回true 表示通过校验
                return val==='我爱你';
             }},
-            flag:{type:Boolean}
+            flag:{type:Boolean} //判断当前的值是布尔值
         }
     }
 }

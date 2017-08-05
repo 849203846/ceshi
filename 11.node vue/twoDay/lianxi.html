@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<div id="app">
+
+
+</div>
+
+
+<template id="panel">
+    <div class="panel" :class="c">
+
+            <div class="panel-heading">{{title}}</div>
+            <div class="panel-body">
+                <slot name="header">
+                    <div>三国时代</div>
+                </slot>
+                <slot name="body">
+                    <div>空空如也</div>
+                </slot>
+                <slot name="footer">
+                    <div>作者：xxx</div>
+                </slot>
+
+
+        </div>
+        <div class="panel-footer">
+            <button @click="fn">
+                点我啊
+            </button>
+        </div>
+    </div>
+</template>
+
+<template id="poane2">
+    <div>
+        <pane1 title="README.MD" type="primary" @event="say">
+            <div slot="header">作者：xxx</div>
+
+            <div slot="body" v-html="content1">  </div>
+
+            <div slot="footer" v-html="content2"></div>
+        </pane1>
+
+
+        <panel type="warning" @event="say"></panel>
+    </div>
+</template>
+
+
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    let panel = {
+        template: '#panel',
+        methods: {
+            fn(val) {
+                this.$emit('event', this.type)
+            }
+
+        },
+        computed:{
+            c(){
+                return 'panel-'+this.type
+            }
+        },
+        props:{
+            type:{
+                default:'danger'
+           },
+            title:{
+                default:'README.MD',
+                type:String
+            }
+        }
+
+
+    }
+    let vm = new Vue({
+        data: {
+            content1: `<div>组件和路由</div>`,
+            content2: `<div>脚手架</div>`
+        },
+        template: '#poane2',
+        components:{
+            panel
+        },
+        methods:{
+          say(val){
+              alert(val)
+          }
+        }
+
+
+    }).$mount('#app')
+</script>
+</body>
+</html>

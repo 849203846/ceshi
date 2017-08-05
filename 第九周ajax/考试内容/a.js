@@ -44,7 +44,7 @@ var http=require('http'),fs=require('fs'),url=require('url'),server=http.createS
             }
     }
 
-    if(pathname==='/getinfo'){
+    if(pathname=='/getinfo'){
         var newid=query['id']
         for(var i=0;i<con.length;i++){
             if(con[i]['id']==newid){
@@ -142,6 +142,6 @@ var http=require('http'),fs=require('fs'),url=require('url'),server=http.createS
 
 })
 
-server.listen(function () {
+server.listen(88,function () {
     console.log('监听成功');
 })

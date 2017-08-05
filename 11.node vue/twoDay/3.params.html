@@ -7,14 +7,15 @@
 <body>
 <div id="app">
     <router-link to="/article/1">第一篇</router-link>
-    <!--如果通过对象传递params属性 需要给路径起别名 name 否则params不生效-->
+    <!--如果通过对象传递params属性 需要给路径起别名 name 否则params不生效-->h
     <router-link :to="{name:'article',params:{id:2}}">第二篇</router-link>
     <router-view></router-view>
 </div>
 <script src="node_modules/vue/dist/vue.js"></script>
 <script src="node_modules/vue-router/dist/vue-router.js"></script>
 <script>
-    let Acticle={template:'<div>第{{id}}片文章</div>',computed:{
+    let Acticle={template:'<div>第{{id}}片文章</div>',
+          computed:{
         id(){return this.$route.params.id}
     }};
     let router=new VueRouter({
