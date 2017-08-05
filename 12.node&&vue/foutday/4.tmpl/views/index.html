@@ -2,14 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>%=title%</title>
+    <title><%=title%></title>
 
 
 </head>
 <body>
 
 hello
-
-
+<table>
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <%
+    users.forEach(function(user){    %>
+    <tr><td><%=user.id%></td></tr>
+    <tr><td><%=user.name%></td></tr>
+    <% })
+    %>
+    </tbody>
+</table>
 </body>
 </html>
