@@ -60,6 +60,6 @@ app.engine('html',require('ejs').__express);
 
 // 如果客户端访问过来的路径是以/public开头的话 会自动对应成public目录下面的文件自动返回给客户
 
-// 当客户端访问金泰文件的时候会自动去public目录下面找对应的文件
+// 当客户端访问静态文件的时候会自动去public目录下面找对应的文件
 app.use(express.static('public'));
 

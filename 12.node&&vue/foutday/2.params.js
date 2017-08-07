@@ -13,8 +13,8 @@
 //         请求头 content-type:application/json
 //         请求体 只有post系请求才有请求体
 
-let exress=require('express');
-let app=exress();
+let express=require('express');
+let app=express();
 let url=require('url');
 // 这里的路径值得是路径名（pathname）
 // 访问的url路径只要路径名字能匹配上就可以 查询字符串不参与匹配
