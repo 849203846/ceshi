@@ -1,32 +1,3 @@
-/**
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- */
-
 
 let express = require('express');
 let cookit=require('cookie-parser')

@@ -13,7 +13,7 @@ let bodyParser=require('body-parser'); //请求体解析中间件nusername=1&pas
 let express=require('express');
 let user=require('./routes/user');
 let index=require('./routes/index');
-let cookieParser=require('cookie-parser')
+let cookieParser=require('cookie-parser');
 
 let app=express();
 // 基本所有的第三方中间件都会返回一个函数之心这个函数才能得到真正的中间件函数

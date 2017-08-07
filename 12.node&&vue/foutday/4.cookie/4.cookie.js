@@ -1,17 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 let express=require('express')
 // 中间件是用来解析cookie的 他会向req添加一个cookies的属性
 let cookieParser=require('cookie-parser')

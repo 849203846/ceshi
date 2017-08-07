@@ -1,7 +1,8 @@
 // app.get的时候 app内部维护了一个数组
 let ware1=(req,res,next)=>{
  setTimeout(()=>{
-     console.log(1);    next()
+     console.log(1);
+     next()
      },3000)
 
 };
