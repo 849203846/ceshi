@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="" alt="" id="photo"  photo="./1.jpg">
+
+<script type="text/javascript">
+
+    function load(url) {
+        return new Promise((r,j)=>{
+            let I=new Image;
+            I.src=photo.getAttribute('photo');
+            I.onload=function () {
+                r(this)
+            };
+            I.onerror=function () {
+                j('sorry')
+            }
+        })
+    }
+
+
+    function d() {
+        load().then((img)=>{
+            photo.src=img.src
+        },(e)=>{
+            console.log(e);
+        })
+    }
+
+    setTimeout(function () {
+        d()
+    },2000)
+</script>
+</body>
+</html>

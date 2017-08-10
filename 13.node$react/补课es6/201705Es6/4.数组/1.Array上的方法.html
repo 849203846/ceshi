@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训</title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+    console.dir(Array);
+
+    function fn(x=0,y=0) {
+        //arguments.length:实参的长度
+        console.log("实参长度为:%s",arguments.length);//2
+    }
+    fn(1,2);
+    //fn.length:没有默认值的形参的长度
+    console.log("形参长度为:%s",fn.length);//0
+
+
+    //Array.from();将类数组/数组变成一个新的数组
+    let ary=[1,2,3,4,5];
+    let ary1=Array.from(ary);
+    ary1[5]=6;
+    console.log(ary);
+
+    function getA() {
+        return Array.from(arguments);
+    }
+    console.log(getA(1, 2, 3, 4, 5, 6));
+
+    //Array.of(),这个方法的出现是为了弥补Array()的不足
+    //Array(x,y...)变成一个数组返回
+    //Array(n) 代表数组的长度length
+    console.log(Array(1, 2, 3));
+    console.log(Array(3));//[,,,] 3个空位
+
+    //判断数组某个位置上有没有值 in
+    //索引 in 数组
+    console.log(0 in Array(3)) ;
+    let a1=[undefined,undefined,undefined];
+    console.log(a1);
+    console.log(0 in a1);
+
+    //1.数组的空位  在ES5中遍历数组的方法很多,每种方法对空位的处理不一致,大部分都是直接省略空位,跳过去
+    let a0=[,,,,,1,,,,2,,,3,,,];
+    console.log(a0.length);
+    a0.forEach((item)=>{
+        console.log(item);
+    });
+    //在ES6提供的遍历的方法都会讲空位处理为undefined
+
+    for(var item of a0){
+        //item 表示当前项
+        console.log(item);
+    }
+
+    //Array.of(n)  [n]
+    console.log(Array.of(10));//[10]
+</script>

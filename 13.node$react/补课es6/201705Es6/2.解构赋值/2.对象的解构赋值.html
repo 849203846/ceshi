@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训</title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+//1.基础情况 变量名=属性名
+    //let {a:a,b:b}={a:"a",b:"b"};
+    let {a,b}={a:"a",b:"b"};
+console.log(a, b);
+//变量名!=属性名
+    let {a:x,b:y,c}={a:"a",b:"b",c:"c"};
+
+    //嵌套
+    let {a:[,m],b:n}={a:[1,2],b:"bb"};
+
+    //默认值  只有在解构赋的值为undefined的情况下,才会走默认值,否则不会走默认值
+    let {name:mm,s:f="f"}={name:"qq",s:undefined};
+
+    let z;
+    [z]=[1];
+console.log(z);
+
+
+let v;
+({v}={v:"v"});
+console.log(v);
+
+//1.其他问题
+    //赋值不是一个对象,将其他数据类型变成对象,使用Object()
+    //Object(res) 将res变成对象返回出来
+
+
+    let {__proto__}=1;
+console.log(__proto__);
+
+console.log(Object(1));
+let {length:le}="12345";//{length:5,__proto__:String}
+console.log(Object("12345"));//{length:5,__proto__:String}
+console.log(le);
+
+
+//字符串=>数组解构赋值
+    let [l,k,g,p,u]="12345";
+console.log(l, k, g,p,u);
+
+let str="12345";
+console.log([...str]);
+
+</script>

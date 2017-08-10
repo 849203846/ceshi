@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训</title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+//    console.log(a);
+//    var a=0;
+//    console.log(a);
+//console.log(a);//a is not defined
+let a=0;
+console.log(a);
+//1.let没有变量提声(没有预解释)
+
+//2.暂时性死区:在一个作用域下不可以使用未被定义的变量
+//3.let定义变量不允许重复声明
+    function fn() {
+        console.log(a);
+        //let a=0;
+    }
+    fn();
+
+//4.虽然不进行变量提声,但是作用域形成后,先把所有的变量过滤一遍,一旦发现不合法直接报错,当前作用域下代码不执行了
+
+    //var a=10;
+    //let a=10;//'a' has already been declared
+
+
+
+//let 不管是var 还是function都不可重复声明
+//    let b="b";
+//    function b() {}
+//    b()
+</script>

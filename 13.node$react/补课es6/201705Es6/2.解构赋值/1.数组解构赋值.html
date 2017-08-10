@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训</title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+    //1基本用法
+let [x,y]=[1,2];
+console.log("x=%s,y=%s",x,y);//1,2
+
+    //2.嵌套
+    let ary1=[[[[[2]]]],[[[3]]]];
+    console.log("" + ary1);
+    console.log(ary1.toString());
+    console.log(ary1.join(""));
+
+    let [[[[[n]]]],[[[m]]]]=ary1;
+    console.log(n, m);
+
+
+    //3.省略赋值
+    let [,,x1]=[1,2,3];
+
+
+    //4.不定参数
+    let ary2=[1,2,3,4,5];
+    let [,,,,,...x2]=ary2;
+    console.log(x2);//[]
+
+
+    //5.默认值  只有在解构赋的值为undefined的情况下,才会走默认值,否则不会走默认值
+    let [d=(function () {
+        console.log("哈哈哈");
+       return "d"
+    })(),dd,ddd=(function () {
+        console.log("嘿嘿嘿");
+        return "d"
+    })()]=[undefined,2,undefined];
+</script>

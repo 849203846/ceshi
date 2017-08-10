@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训</title>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+</body>
+</html>
+<script type="text/javascript">
+// {表示一个块级作用域(私有作用域)}
+    //for(){}
+    //if(){}
+    //function(){}
+    //{}
+//记住如果想用{}表示对象千万不要写在行首,非要写记住加上()包起来
+
+//自执行函数
+{
+   let aa="aa";
+   aa+=1;
+   console.log(aa);
+}
+
+let aa=1;
+
+if(aa){
+    //(条件是上一级作用域)
+    //私有作用域
+    let aa=0;
+    let a=1;
+    console.log(a);
+}
+//console.log(a);
+
+
+let lis=document.getElementsByTagName("li");
+
+  for(let i=0;i<lis.length;i++){
+    lis[i].onclick=function () {
+        alert(i)
+    }
+  }
+
+
+</script>

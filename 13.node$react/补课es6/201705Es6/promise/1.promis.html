@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <script>
+    // 创建一个promise实例
+        let p1=new Promise((resolve,reject)=>{
+            // 这两个形参都是函数
+            // 可以任意指定谁去执行
+            // 每次只能执行一个函数e
+//            一旦这里面报错了 就会主动执行reject函数
+//            reject()
+//            resolve()
+            console.log(a);
+        });
+        p1.then(()=>{
+                // 这个就是resolve 成功的状态
+            console.log(1);
+
+        },()=>{
+            // 这个就是reject  失败的状态
+            console.log(2);
+        })
+
+
+
+    </script>
+</body>
+</html>
