@@ -26,7 +26,7 @@ class SliderDots extends React.Component{
                     this.props.images.map((image,index)=>(
                         <span
                             key={index}
-                            className={' '+index==this.props.index?'bg':null }
+                            className={' '+index===this.props.index?'bg':null }
                             onClick={()=>this.props.turn(index-this.props.index)}>
                  </span>
                     ))
@@ -90,11 +90,14 @@ class Slider extends React.Component{
                 onMouseOut={()=>this.go()}
                 className="slider-wrapper"
             >
-                <SliderItems index={this.state.index} images={this.props.images} speed={this.props.speed}/>
+                <SliderItems
+                    index={this.state.index}
+                    images={this.props.images}
+                    speed={this.props.speed}/>
 
-                <SliderArrows turn={this.turn} >
+                <SliderArrows turn={this.turn} />
 
-                </SliderArrows>
+
                 <SliderDots
                     images={this.props.images}
                     index={this.state.index}

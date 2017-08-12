@@ -25,7 +25,7 @@
 
 
 
-import './考试/slider'
+import './考试/slider1'
 
 
 

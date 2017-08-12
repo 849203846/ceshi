@@ -35,7 +35,7 @@ app.set('views',path.resolve('views'));
 // 指定html类型的模版渲染方法
 app.engine('html',require('ejs').__express);
 //   index提供首页的路由
- //执行后又返回一个新好熟 请求监听函数
+ //执行后又返回一个新函数 请求监听函数
 app.use('/user',user);
 app.use('/',index);
 app.listen(8080);

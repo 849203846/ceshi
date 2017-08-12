@@ -62,4 +62,3 @@ app.engine('html',require('ejs').__express);
 
 // 当客户端访问静态文件的时候会自动去public目录下面找对应的文件
 app.use(express.static('public'));
-
