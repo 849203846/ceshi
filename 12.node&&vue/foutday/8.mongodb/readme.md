@@ -15,7 +15,7 @@
 
 ```
 启动服务器
-mongod --dbpath=F:\新建文件夹\mmdata 数据库存放的位置
+mongod --dbpath=F:\mmdata 数据库存放的位置
 ```
 
 - 再在bin里面打开dos 然后执行
@@ -32,4 +32,4 @@ switched to db admin
 > db.shutdownServer();
 
 ```
-- crud create read update delete 增加读取更新 删除 
+- crud create read update delete 增加读取更新 删除

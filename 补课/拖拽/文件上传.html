@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--multiple可以选择多个文件-->
+<!--accept="image/*"只能上传图片文件-->
+<input type="file" multiple accept="image/*" id="file1">
+<input type="button" title="提交" value="提交" id="button">
+<br>
+<div id="a">
+
+    1
+</div>
+<script type="text/javascript">
+    var file1=document.getElementById('file1')
+
+    var oButton=document.getElementById('button')
+    var a=document.getElementById('a')
+    oButton.onclick=function () {
+        let file2=file1.files
+        for(var i=0;i<file2.length;i++){
+            showimg(file2[i])
+        }
+    }
+
+    function showimg(fils) {
+        var name=fils.name
+        var size=Math.floor(fils.size*1024)
+        var type=fils.type
+        console.log(type);
+        console.log(size);
+        console.log(name);
+        if(size>500){
+            return
+        }
+        if(!/image\/\w+/.test(type)){
+            return
+        }
+        if(typeof FileReader){
+            var reader=new FileReader//创建文件读取的对象
+            reader.readAsDataURL(fils) //将图片以64编码格式读取出来
+            reader.readAsBinaryString(fils)
+            reader.onload=function () {
+                //   this.result 保存了成功的数据
+                console.log(1);
+                a.innerHTML="<img src='"+this.result+"'>"
+            }
+
+        }
+    }
+</script>
+</body>
+</html>

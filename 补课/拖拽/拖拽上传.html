@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<STYLE>
+    #DIV1{
+        width: 300px;
+        height: 300px;
+        line-height: 300px;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px dashed #5e5e5e;
+    }
+</STYLE>
+</head>
+<body>
+<div id="DIV1">
+将文件拖拽到此区域
+
+    你
+</div>
+
+<script type="text/javascript">
+
+    DIV1.ondragenter=function () {
+        this.innerHTML='可以释放鼠标了'
+    }
+    DIV1.ondragover=function () {
+        e.preventDefault()
+
+    }
+    DIV1.ondrop=function (e) {
+        e.preventDefault() //阻止默认打开的行为
+        e.stopPropagation()//兼容火狐 Ff
+        console.log(e.dataTransfer.files);//得到拖拽进来的信息
+
+        this.innerHTML='将文件拖拽到次区域'
+    }
+
+
+</script>
+</body>
+</html>

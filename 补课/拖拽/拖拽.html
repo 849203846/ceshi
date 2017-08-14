@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #source,#target{
+            margin: 20px 50px ;
+            border: 6px solid royalblue;
+            width: 500px;
+            float: left;
+            height: 500px;
+        }
+        li{
+            position: relative;
+            list-style: none;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 20px 30px 40px 50px;
+        }
+    </style>
+</head>
+<body>
+<ul id="source">
+    <li draggable="true">111</li>
+    <li draggable="true">222</li>
+    <li draggable="true">333</li>
+    <li draggable="true">444</li>
+    <li draggable="true">555</li>
+</ul>
+<div id="target"></div>
+<img src="./$%7DYYAON%7BI22SC5_1YJR38J3.jpg" alt="" id="oImg">
+<script type="text/javascript">
+    var oLis=document.querySelectorAll('#source>li');
+    [].forEach.call(oLis,function (item, index) {
+        item.index=index
+        item.addEventListener('dragstart',dragstart,false)
+        item.addEventListener('drag',drag,false)
+        item.addEventListener('dragend',dragend,false)
+    })
+    function dragstart(e) {
+        let index=this.index
+        e.dataTransfer.setData('text','拖拽时候携带的数据')
+        e.dataTransfer.setData('index',index)
+        this.style.background='pink'
+        e.dataTransfer.effectAllowed='link' //设置鼠标的视觉效果
+        e.dataTransfer.setDragImage(oImg,20,20) //设置鼠标背景；
+    }
+    var index=0
+    function drag() {
+        this.title=111111111
+    }
+    function dragend() {
+        this.style.background='red'
+    }
+    var oTarger=document.querySelector('#target')
+    oTarger.ondragenter=function () {
+        this.style.background='black'
+    }
+    oTarger.ondragover=function (e) {
+        e.preventDefault() //清除默认的不允许元素放入其他元素里的行为
+        this.style.border='100px solid blue'
+    }
+    oTarger.ondragleave=function () {
+        this.style.background='#5E5E5E'
+    }
+    oTarger.ondrop=function (e) {
+        var oTest=e.dataTransfer.getData('text')
+        var index=e.dataTransfer.getData('index')
+        this.innerHTML=oTest
+        this.style.background='red'
+        this.appendChild(oLis[index])
+    }
+
+</script>
+</body>
+</html>
