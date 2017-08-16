@@ -111,8 +111,5 @@ ReactDOM.render(<Slider
     speed={1.2}
     delay={1.5}
     autoplay={true}
-    arrows={true}
-    dots={true}
     images={images}
-    pause={true}
 />,document.querySelector('#root'));

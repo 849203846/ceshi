@@ -6,7 +6,7 @@ let images=[
     {src:require('./images/1.jpg'),alt:'1.jpg'},
     {src:require('./images/2.jpg'),alt:'2.jpg'},
     {src:require('./images/3.jpg'),alt:'3.jpg'},
-]
+];
 
 // speed 每次轮播的速度
 // delay每隔多长时间轮播一次
@@ -26,4 +26,4 @@ arrows={true}
 dots={true}
 images={images}
 pause={true}
-/>,document.querySelector('#root'))
+/>,document.querySelector('#root'));

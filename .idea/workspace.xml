@@ -18,15 +18,149 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a3248d8-f8af-4c30-9f24-9290220e652f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dang/201704blog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/补课/拖拽/$}YYAON{I22SC5_1YJR38J3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/补课/拖拽/拖拽.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/补课/拖拽/拖拽上传.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/补课/拖拽/文件上传.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/DOMUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/LocationUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/PathUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/createBrowserHistory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/createHashHistory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/createMemoryHistory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/createTransitionManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/es/DOMUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/es/LocationUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/es/PathUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/es/createBrowserHistory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/es/createHashHistory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/es/createMemoryHistory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/es/createTransitionManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/es/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/umd/history.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/history/umd/history.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.idea/hoist-non-react-statics.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/hoist-non-react-statics/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/BrowserRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/HashRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/Link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/MemoryRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/NavLink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/Prompt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/Redirect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/Route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/Router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/StaticRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/Switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/BrowserRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/HashRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/Link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/MemoryRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/NavLink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/Prompt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/Redirect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/Route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/Router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/StaticRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/Switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/matchPath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/es/withRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/matchPath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/umd/react-router-dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/umd/react-router-dom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router-dom/withRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/MemoryRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/Prompt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/Redirect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/Route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/Router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/StaticRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/Switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/MemoryRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/Prompt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/Redirect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/Route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/Router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/StaticRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/Switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/matchPath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/es/withRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/matchPath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/node_modules/path-to-regexp/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/node_modules/path-to-regexp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/node_modules/path-to-regexp/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/node_modules/path-to-regexp/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/node_modules/path-to-regexp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/node_modules/path-to-regexp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/umd/react-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/umd/react-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/react-router/withRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/resolve-pathname/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/resolve-pathname/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/resolve-pathname/es/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/resolve-pathname/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/resolve-pathname/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/resolve-pathname/umd/resolve-pathname.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/resolve-pathname/umd/resolve-pathname.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/value-equal/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/value-equal/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/value-equal/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/value-equal/umd/value-equal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/value-equal/umd/value-equal.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/warning/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/warning/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/warning/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/warning/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/warning/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/node_modules/warning/warning.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/components/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/components/MenuLink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/components/Profile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/components/User.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/components/UserAdd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/components/UserDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/components/UserList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/containers/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/router/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.node$react/oneday/webpack.router.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dang/201704blog" afterPath="$PROJECT_DIR$/dang/201704blog" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/8.mongodb/readme.md" afterPath="$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/8.mongodb/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/src/day1/2.jsx.js" afterPath="$PROJECT_DIR$/13.node$react/oneday/src/day1/2.jsx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/src/index.js" afterPath="$PROJECT_DIR$/13.node$react/oneday/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/build/build.js" afterPath="$PROJECT_DIR$/13.node$react/oneday/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/build/build.js.map" afterPath="$PROJECT_DIR$/13.node$react/oneday/build/build.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/build/index.html" afterPath="$PROJECT_DIR$/13.node$react/oneday/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/package-lock.json" afterPath="$PROJECT_DIR$/13.node$react/oneday/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/package.json" afterPath="$PROJECT_DIR$/13.node$react/oneday/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/index.js" afterPath="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.js" afterPath="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.less" afterPath="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider1.js" afterPath="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ceshi.html" afterPath="$PROJECT_DIR$/ceshi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/debug/src/node.js" afterPath="$PROJECT_DIR$/node_modules/debug/src/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mquery/node_modules/debug/src/node.js" afterPath="$PROJECT_DIR$/node_modules/mquery/node_modules/debug/src/node.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +176,75 @@
     <favorites_list name="ceshi" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="22">
+                <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/local.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/containers/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuLink.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/components/MenuLink.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,20 +254,13 @@
         <option value="CSS File" />
         <option value="Less File" />
         <option value="AMD JavaScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>desc</find>
-      <find>utils</find>
-      <find>previousSiblings</find>
-      <find>easeInOut</find>
-      <find>Quad</find>
-      <find>noGlobal</find>
-      <find>addClass</find>
       <find>jQuery.fn</find>
       <find>animate</find>
       <find>ajax</find>
@@ -89,6 +284,13 @@
       <find>dir</find>
       <find>__d</find>
       <find>SliderItem</find>
+      <find>pause</find>
+      <find>arrows</find>
+      <find>dots</find>
+      <find>speed</find>
+      <find>delay</find>
+      <find>Item</find>
+      <find>bootstrap</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;desc&quot;</replace>
@@ -104,27 +306,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2/3.dom.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/slider.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/webpack.config.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/index.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/components/slider.less" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/components/slider.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/components/sliderDots.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-3/components/sliderDots.js" />
-        <option value="E:/讲义react/201705react/src/day2-2/components/SliderArrows.js" />
-        <option value="E:/讲义react/201705react/src/day2-3/components/Slider.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-3/components/slider.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-3/components/slideritems.js" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/let.html" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/变量的定义.js" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/块级作用域.js" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/全局属性.js" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/解构赋值.js" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/方法.js" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/数组的方法.js" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/4.数组/2.Array原型上的方法.js" />
-        <option value="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/4.数组/3.便利的方法.js" />
         <option value="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/4.数组/扩展运算符.js" />
         <option value="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/对象’/1.属性名.js" />
         <option value="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/对象’/object is.js" />
@@ -138,11 +319,9 @@
         <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/components/slideritems.js" />
         <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/components/sliderArrpws.js" />
         <option value="$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/express/express.js" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.js" />
         <option value="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/3.字符串/1.方法.html" />
         <option value="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/3.字符串/2.模板字符串.html" />
         <option value="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/4.数组/1.Array上的方法.html" />
-        <option value="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider1.js" />
         <option value="$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/2.params.js" />
         <option value="$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/6.express/server.js" />
         <option value="$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/4.tmpl/server.js" />
@@ -155,6 +334,29 @@
         <option value="$PROJECT_DIR$/13.node$react/oneday/src/day1/2.jsx.js" />
         <option value="$PROJECT_DIR$/13.node$react/oneday/src/day1/7。doubleBind.js" />
         <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2/4.suggest.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.js" />
+        <option value="$PROJECT_DIR$/ceshi.html" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/webpack.config.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/src/day2-2/index.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/webpack.router.config.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/readme.md" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/containers/app.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/Profile.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/package.json" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/add.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/list.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/Home.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/UserDetail.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/UserList.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/local.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/User.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/UserAdd.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider1.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.less" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/index.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/index.html" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/containers/App.js" />
+        <option value="$PROJECT_DIR$/13.node$react/oneday/router/components/MenuLink.js" />
       </list>
     </option>
   </component>
@@ -233,8 +435,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,40 +445,35 @@
             <path>
               <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
               <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="5、正式课第五周" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="12.node&amp;&amp;vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
               <item name="13.node$react" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
               <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="dang" type="462c0819:PsiDirectoryNode" />
+              <item name="13.node$react" type="462c0819:PsiDirectoryNode" />
+              <item name="oneday" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
               <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="dang" type="462c0819:PsiDirectoryNode" />
-              <item name="201704blog" type="462c0819:PsiDirectoryNode" />
+              <item name="13.node$react" type="462c0819:PsiDirectoryNode" />
+              <item name="oneday" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ceshi" type="b2602c69:ProjectViewProjectNode" />
               <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-              <item name="dang" type="462c0819:PsiDirectoryNode" />
-              <item name="201704blog" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="13.node$react" type="462c0819:PsiDirectoryNode" />
+              <item name="oneday" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,11 +508,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ceshi\13.node$react\oneday" />
+      <recent name="E:\ceshi\13.node$react\oneday\router" />
       <recent name="E:\ceshi\补课\拖拽" />
       <recent name="E:\ceshi\13.node$react\oneday\src\考试" />
       <recent name="E:\ceshi\13.node$react\oneday\src\day2-3" />
-      <recent name="E:\ceshi\13.node$react\oneday\src\day2-2" />
-      <recent name="E:\ceshi\12.node&amp;&amp;vue\foutday" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ceshi\13.node$react\补课es6\201705Es6\promise" />
@@ -340,10 +535,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1.属性名.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="1.属性名.js" working-dir="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/对象’" />
     <configuration name="1.mongoose.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="1.mongoose.js" working-dir="$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/9.mongoose" />
     <configuration name="1.promis.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ceshi/13.node$react/补课es6/201705Es6/promise/1.promis.html" />
-    <configuration name="方法.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="方法.js" working-dir="$PROJECT_DIR$/13.node$react/补课es6" />
     <configuration name="数组的方法.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数组的方法.js" working-dir="$PROJECT_DIR$/13.node$react/补课es6" />
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -410,21 +603,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="map.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="map.js" working-dir="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/对象’" />
-    <configuration name="object is.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="object is.js" working-dir="$PROJECT_DIR$/13.node$react/补课es6/201705Es6/对象’" />
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.方法.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.1.属性名.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.object is.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.map.js" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1.promis.html" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1.promis.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.1.mongoose.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.数组的方法.js" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1.promis.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.map.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.object is.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.1.属性名.js" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +764,14 @@
       <workItem from="1502497313352" duration="23143000" />
       <workItem from="1502533094818" duration="7760000" />
       <workItem from="1502585088840" duration="3612000" />
-      <workItem from="1502673934847" duration="2602000" />
+      <workItem from="1502673934847" duration="8497000" />
+      <workItem from="1502701326885" duration="452000" />
+      <workItem from="1502714322189" duration="23000" />
+      <workItem from="1502714986146" duration="274000" />
+      <workItem from="1502716872757" duration="985000" />
+      <workItem from="1502756903986" duration="1378000" />
+      <workItem from="1502759997815" duration="30064000" />
+      <workItem from="1502844062016" duration="1172000" />
     </task>
     <task id="LOCAL-00001" summary="课件">
       <created>1500715816883</created>
@@ -783,11 +976,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502526933747</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="node">
+      <created>1502677131673</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1502677131674</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1542369000" />
+    <option name="totallyTimeSpent" value="1582612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,11 +1001,11 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18345705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21314952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32130778" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="1548" y="11" width="371" height="395" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32130778" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="0" y="0" width="1921" height="1030" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3784219" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18661971" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -829,10 +1029,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32130778" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="1548" y="11" width="371" height="395" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32130778" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="0" y="0" width="1921" height="1030" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18661971" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17020148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21314952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5223005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3784219" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -887,119 +1087,76 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/考试/slider1.js">
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/src-one/containers/Add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/src-one/containers/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1824">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/src-one/containers/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#758#783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/src-one/containers/updata.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1536">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/src-one/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/src-one/components/Loading.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/src-one/components/Nav.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/fiveday/path.js">
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/src-one/components/Swiper.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-480">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/3.express/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-213">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/2.params.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/2.app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/node_modules/express-session/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/Express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ejs/lib/ejs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5376">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/body-parser/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/6.express/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/7.express/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/5.session/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/4.tmpl/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/4.tmpl/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/build/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16634" column="24" lean-forward="false" selection-start-line="16634" selection-start-column="24" selection-end-line="16634" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/my-app/README.md">
+    <entry file="file://E:/讲义2/201705node/vue/vue-book/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1009,146 +1166,227 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/补课/拖拽/拖拽.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/补课/拖拽/文件上传.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/补课/拖拽/拖拽上传.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/README.md">
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/readmd.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-480">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="320">
+            <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/views/footer.html">
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="352">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/views/category/list.html">
+    <entry file="file://$PROJECT_DIR$/11.node vue/twoDay/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/views/category/add.html">
+    <entry file="file://$PROJECT_DIR$/11.node vue/oneDay/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/9.mongoose/1.mongoose.js">
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1774">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="-96">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/build/check-versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/build/dev-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/build/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/oneday/vue-books/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2-2/components/slider.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2-2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13.node$react/oneday/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="96">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/webpack.router.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13.node$react/oneday/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="11" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="156" selection-end-column="3" />
-            <folding />
+          <first_editor relative-caret-position="-2218">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13.node$react/oneday/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="288">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/components/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="256">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/.babelrc">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/components/UserList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="-96">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12.node&amp;&amp;vue/foutday/8.mongodb/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="608">
-            <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/components/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/components/UserDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/components/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/components/UserAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="512">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1162,153 +1400,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day1/7。doubleBind.js">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/考试/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="-448">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day1/6.state.js">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2-3/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#135#160#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day1/5.children.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day1/4.props.js">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/考试/slider1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
-            <element signature="e#0#25#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="false" />
+            <element signature="n#SliderItem#0" expanded="false" />
+            <element signature="n#Slider#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day1/3.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day1/2.jsx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="e#126#151#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day1/8.panel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1312">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2/1.lifecycle、.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2/2.dom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#102#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2/3.dom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#51#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2/review.md">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <first_editor relative-caret-position="22">
+            <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2/4.suggest.js">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/local.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="960">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/src/day2-2/index.js">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="160">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/views/header.html">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="416">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dang/201704blog/views/index.html">
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="224">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.node$react/oneday/router/components/MenuLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

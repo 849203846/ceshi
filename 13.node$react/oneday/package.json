@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --open",
+    "build-router": "webpack --config webpack.router.config.js",
+    "dev-router": "webpack-dev-server --config webpack.router.config.js --open"
   },
   "author": "",
   "license": "ISC",
@@ -30,6 +32,7 @@
     "jquery": "^3.2.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2"
   }
 }
