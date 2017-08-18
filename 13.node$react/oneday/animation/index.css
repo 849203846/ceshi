@@ -1,0 +1,29 @@
+.fade-enter{
+    opacity: .1;
+
+}
+.fade-enter-active{
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.fade-leave{
+   transform: translate(0);
+    opacity: 1;
+}
+.fade-leave-active{
+    transform: translate(-100%);
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+.move-enter{
+   animation:mymove 500ms ease-in infinite ;
+
+}
+@keyframes mymove {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,3 +1,8 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="王爸爸" />
+  <dictionary name="王爸爸">
+    <words>
+      <w>redux</w>
+      <w>todos</w>
+    </words>
+  </dictionary>
 </component>

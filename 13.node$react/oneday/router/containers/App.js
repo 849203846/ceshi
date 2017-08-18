@@ -45,16 +45,19 @@ export default class App extends Component {
                         <div className="row">
                             <div className="col-md-8 col-md-offset-2">
                                 <Switch>
+
                                 <Route
                                     exact
                                     path="/"
                                     component={Home}/>
+
                                 <Route
                                     path="/user"
                                     render={(props) =>
                                         <User
                                          model={this.props.model}>
                                         </User>}/>
+
                                 <Route
                                     path="/profile"
                                     component={Profile}/>

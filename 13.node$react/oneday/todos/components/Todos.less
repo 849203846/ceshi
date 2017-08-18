@@ -1,0 +1,33 @@
+.list-group-item{
+  .btn-danger{
+    display:none;
+  }
+  &:hover{
+    .btn-danger{
+      display:inline-block;
+    }
+  }
+}
+
+.example-enter {
+  opacity: 0.01;
+  transform: translate(100%);
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transform: translate(0);
+  transition: all 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+.filter{
+  margin-left: 5px;
+}
