@@ -18,7 +18,7 @@
 mongod --dbpath=F:\mmdata 数据库存放的位置
 ```
 
-- 再在bin里面打开dos 然后执行
+- 再在bin里面打开dos 然后执行****
 ```
 1.mongo
 2.db 出现test就成功了
