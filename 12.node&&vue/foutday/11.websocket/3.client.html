@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+
+//    在浏览器创建一个客户端 websocket是没有跨域问题的
+    let socket=new WebSocket('ws://localhost:8080');
+//在客户端连接服务器成功之后
+    socket.onopen=function () {
+        console.log('连接成功');
+        socket.send('你好')
+    };
+    //在客户端监听服务器发过来的消息
+    socket.onmessage=function (event) {
+        console.log(event.data);
+    }
+
+</script>
+</body>
+</html>

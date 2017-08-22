@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+    <style>
+        .user{
+            color: red;
+            cursor: col-resize;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container" style="margin-top:15px ">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="text-center">欢迎来到珠峰聊天室
+        <button id="redBtn" onclick="join('red')" class="btn btn-danger">红房间</button>
+        <button id="greenBtn" onclick="join('green')" class="btn btn-default">绿房间</button>
+        </h4>
+    </div>
+    <div class="panel-body">
+        <ul class="list-group" id="messages" onclick="clickMessages(event)">
+
+        </ul>
+    </div>
+    <div class="panel-footer">
+        <form onsubmit="send(event)">
+            <input required id="txtMsg" type="text" class="form-control" onkeydown="">
+        </form>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+index 的文件
+<!--这个路径是写死的-->
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript">
+    let messagesUL= document.querySelector('#messages')
+//当你在网页中映入了socket.io.js之后 会在window上挂在一个io的属性
+let socket=io(); //不写参数 表示‘/’ 等于当前路径http://localhost:8080/
+//指向此io方法会返回一个socket实例
+//执行io的时候已经开始连接服务器了;
+let txtMsg=document.querySelector('#txtMsg');
+socket.on('connect',function () {
+    console.log('1.连接成功');
+//    向服务器发送一个事件 名字叫getAllMessages 要求服务返回最近的20条数据
+socket.emit('getAllMessages')
+});
+function forMsg(msgobj) {
+   return `<span class="user">${msgobj.username}</span>:${msgobj.content}<button class="btn btn-xs btn-danger revoke" id="revoke_${msgobj._id}">撤回消息</button><span class="pull-right">${new Date(msgobj.createAt).toLocaleString()}</span>`
+}
+    socket.on('message',function (msg) {
+//        监听服务器发过来的消息
+        let li=document.createElement('li');
+        li.innerHTML=`${forMsg(msg)}`;
+        li.className='list-group-item';
+        messagesUL.appendChild(li)
+    });
+    socket.on('allMessages',function (messages) {
+        messagesUL.innerHTML=messages.map((msg,index)=>(
+            `<li class="list-group-item">${forMsg(msg)}</li>`
+        )).join('')
+
+    });
+function send(event) {
+    event.preventDefault();//阻止默认事件
+    let val=txtMsg.value; //获取输入框的值
+    socket.send(val);//发送消息 把字符串发送到后台
+    txtMsg.value=''
+}
+function clickMessages(event) {
+    if(event.target.className=='user'){
+        let username=event.target.innerHTML;
+        txtMsg.value=`@${username} `
+    }else if(/(^| )revoke($| )/.test(event.target.className)){
+//        判断当前元素有revokeclass名字的
+        let id=event.target.id;
+        id=id.slice(7);
+//        发射事件 要求服务器删除id对应的元素
+        socket.emit('revoke',id)
+    }
+}
+
+//加入某个房间 参数是房间的名字
+function join(roomName) {
+    socket.emit('join',roomName)
+//    我想后逃发送一个消息说要求此客户端进入某个房间 那么进入房间后 在房间内说的话只有房间里的人才能听到 别的房间听不到
+
+}
+socket.on('joined',function (roomName) {
+    Array.from(document.querySelectorAll('button')).forEach(item=>{
+        item.className='btn btn-default'
+    });
+    document.querySelector('#'+roomName+'Btn').className='btn btn-danger'
+});
+socket.on('revoked',function (id) {
+    let btn=document.querySelector('#revoke_'+id);
+    let li=btn.parentNode;
+    let newli=document.createElement('li');
+    newli.className='list-group-item';
+    newli.innerHTML='你撤回一条消息';
+    li.parentNode.removeChild(li).appendChild(newli)
+})
+</script>
+</body>
+</html>
